@@ -25,7 +25,7 @@
   "perfil": [
     "Ingeniero en Geomensura y Cartografía con más de 12 años de trayectoria en el Servicio Aerofotogramétrico, institución pública de Chile. Especializado en análisis geoespacial y control de calidad (QA/QC) de productos vectoriales, ráster, LiDAR e imágenes satelitales bajo estándares ASPRS 2015 e IPHG, con tasas de aprobación sostenidas sobre el 95 % en aproximadamente 80 productos validados por año. Cursa dos magíster en paralelo: Estadística Aplicada y Ciencia de Datos (UBO) y Educación (UMC).",
     "Perfil integrado en tres ejes: SIG de alta precisión (ArcGIS Pro, ArcGIS Online, fotogrametría); análisis de datos espaciales, teledetección aplicada y GeoIA (NASA ARSET, CONAE, Google Earth Engine, Python geoespacial); y operación RPAS certificada DGAC con aplicación en minería, geotecnia e infraestructura (WingtraOne GEN II, WingtraRAY, Pix4D, Agisoft Metashape).",
-    "Docencia activa en dos instituciones de educación superior (IP AIEP e IP Santo Tomás) y relatoría técnica en OTEC (Corvus Group, Cetye e Inel, Perú — primera experiencia como relator internacional), con incorporación próxima como instructor para Chilquinta Energía."
+    "Docencia activa en dos instituciones de educación superior (IP AIEP e IP Santo Tomás) y relatoría técnica en OTEC (Corvus Group y Cetye). En octubre de 2026, como relator internacional contratado por Inel (Perú), capacitó a personal de Chilquinta Energía en el software LiPowerline para el análisis LiDAR de líneas eléctricas."
   ],
   "experiencia": [
     {
@@ -112,7 +112,7 @@
     },
     {
       "organizacion": "Cetye",
-      "logo": "",
+      "logo": "https://www.cetye.cl/assets/logo.png",
       "tipo": "docencia",
       "cargos": [
         {
@@ -130,27 +130,19 @@
       "tipo": "docencia",
       "cargos": [
         {
-          "cargo": "Relator Internacional – Sistemas de Información Geográfica",
-          "periodo": "2026 – Actualidad",
+          "cargo": "Relator Internacional – Software LiPowerline (LiDAR aplicado a líneas eléctricas)",
+          "periodo": "Oct. 2026",
           "logros": [
-            "Primera experiencia como relator internacional, en un OTEC con sede en Perú."
+            "Contratado por Inel, OTEC con sede en Perú, para capacitar a personal técnico de Chilquinta Energía en el software LiPowerline.",
+            "Procesamiento y análisis de nubes de puntos LiDAR para inspección de líneas de transmisión y distribución eléctrica: clasificación, detección de vanos y conductores, y análisis de distancias de seguridad.",
+            "Primera experiencia como relator internacional."
           ]
         }
-      ]
-    },
-    {
-      "organizacion": "Chilquinta Energía",
-      "logo": "",
-      "tipo": "docencia",
-      "cargos": [
-        {
-          "cargo": "Instructor externo",
-          "periodo": "Incorporación 2026",
-          "logros": [
-            "Formación técnica de personal de una de las principales distribuidoras de energía eléctrica del país."
-          ]
-        }
-      ]
+      ],
+      "cliente": {
+        "nombre": "Chilquinta Energía",
+        "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilquinta%20Logotipo.svg?width=240"
+      }
     },
     {
       "organizacion": "Quality & Improvement",
@@ -207,7 +199,8 @@
       {
         "titulo": "Credencial de Operador RPAS N° 16114",
         "institucion": "Dirección General de Aeronáutica Civil (DGAC)",
-        "detalle": "2024 · vigente hasta 2027 · habilitaciones de vuelo nocturno y operaciones sobre personas"
+        "detalle": "2024 · vigente hasta 2027 · habilitaciones de vuelo nocturno y operaciones sobre personas",
+        "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Direcci%C3%B3n%20General%20de%20Aeron%C3%A1utica%20Civil%20de%20Chile.svg?width=240"
       }
     ],
     "diplomados": [
@@ -330,19 +323,23 @@
   "reconocimientos": [
     {
       "titulo": "Ganador – Concurso de Innovación Docente AIEP 2026",
-      "detalle": "Proyecto «Aula Aerotransportada», Instituto Profesional AIEP (2026)"
+      "detalle": "Proyecto «Aula Aerotransportada», Instituto Profesional AIEP (2026)",
+      "logo": "assets/logos/aiep.png"
     },
     {
       "titulo": "Primer lugar – Curso de Instructor Técnico",
-      "detalle": "160 h · nota 6,97 (2026)"
+      "detalle": "160 h · nota 6,97 (2026)",
+      "logo": ""
     },
     {
       "titulo": "Becario – Teaching with Purpose",
-      "detalle": "Santander Open Academy en colaboración con Harvard Business Impact (2026)"
+      "detalle": "Santander Open Academy en colaboración con Harvard Business Impact (2026)",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Banco%20Santander%20Logotipo.svg?width=240"
     },
     {
       "titulo": "Semifinalista – Desafío Calor Extremo",
-      "detalle": "Gobierno Regional Metropolitano de Santiago (2024)"
+      "detalle": "Gobierno Regional Metropolitano de Santiago (2024)",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20del%20Gobierno%20Regional%20Metropolitano%20de%20Santiago.svg?width=240"
     }
   ],
   "competencias": [
@@ -455,6 +452,40 @@
     "Universidad Miguel de Cervantes": "assets/logos/umc.png",
     "Santo Tomás": "assets/logos/santo-tomas.png",
     "Corvus Group": "assets/logos/corvus-group.png",
-    "Inel": "assets/logos/inel.png"
+    "Inel": "assets/logos/inel.png",
+    "Esri": "https://commons.wikimedia.org/wiki/Special:FilePath/ArcGIS%20Logo%202026.svg?width=240",
+    "BID": "https://commons.wikimedia.org/wiki/Special:FilePath/IDB%20logo.svg?width=240",
+    "Coursera": "https://commons.wikimedia.org/wiki/Special:FilePath/Coursera%20logo%20%282020%29.svg?width=240",
+    "LinkedIn": "https://commons.wikimedia.org/wiki/Special:FilePath/LinkedIn%20Learning%20logo.png?width=240",
+    "NASA": "https://commons.wikimedia.org/wiki/Special:FilePath/NASA%20logo.svg?width=240",
+    "Microsoft": "https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft%20logo%20%282012%29.svg?width=240",
+    "IBM": "https://commons.wikimedia.org/wiki/Special:FilePath/IBM%20logo.svg?width=240",
+    "Google for Education": "https://commons.wikimedia.org/wiki/Special:FilePath/Google%20for%20Education%20logo.svg?width=240",
+    "Google": "https://commons.wikimedia.org/wiki/Special:FilePath/Google%202015%20logo.svg?width=240",
+    "FAO": "https://commons.wikimedia.org/wiki/Special:FilePath/FAO%20logo.svg?width=240",
+    "Universidad Politécnica de Madrid": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Universidad%20Polit%C3%A9cnica%20de%20Madrid.svg?width=240",
+    "UFRO": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Nuevo%20Ufro.png?width=240",
+    "Udemy": "https://commons.wikimedia.org/wiki/Special:FilePath/Udemy%20logo.svg?width=240",
+    "Leica": "https://commons.wikimedia.org/wiki/Special:FilePath/Leica%20Geosystems%20Logo.svg?width=240",
+    "UNU-INWEH": "https://commons.wikimedia.org/wiki/Special:FilePath/United%20Nations%20University%20logo.svg?width=240",
+    "Santander": "https://commons.wikimedia.org/wiki/Special:FilePath/Banco%20Santander%20Logotipo.svg?width=240",
+    "Universidad de Santiago de Chile": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo-usach-oficial.png?width=240",
+    "Dirección General de Aeronáutica Civil": "https://commons.wikimedia.org/wiki/Special:FilePath/Direcci%C3%B3n%20General%20de%20Aeron%C3%A1utica%20Civil%20de%20Chile.svg?width=240",
+    "Universidad de los Andes": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Universidad%20de%20los%20Andes.png?width=240",
+    "Servicio Agrícola y Ganadero": "https://commons.wikimedia.org/wiki/Special:FilePath/LOGOSAG.png?width=240",
+    "Servicio de Evaluación Ambiental": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Servicio%20de%20Evaluaci%C3%B3n%20Ambiental%20de%20Chile.png?width=240",
+    "Ministerio del Medio Ambiente": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20del%20Ministerio%20del%20Medio%20Ambiente%20de%20Chile.svg?width=240",
+    "INJUV": "https://commons.wikimedia.org/wiki/Special:FilePath/LogoINJUV.png?width=240",
+    "IGAC": "https://commons.wikimedia.org/wiki/Special:FilePath/IGAC%20%28Colombia%29%20logo.png?width=240",
+    "CONAE": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20CONAE.png?width=240",
+    "USACE": "https://commons.wikimedia.org/wiki/Special:FilePath/USACE%20logo%20Large%20%286211545364%29.jpg?width=240",
+    "Chilquinta": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilquinta%20Logotipo.svg?width=240",
+    "Universidad de la Defensa Nacional": "https://commons.wikimedia.org/wiki/Special:FilePath/Undef%20argentina%20logo.png?width=240",
+    "Gobierno Regional Metropolitano": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20del%20Gobierno%20Regional%20Metropolitano%20de%20Santiago.svg?width=240",
+    "CIREN": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Centro%20de%20Informaci%C3%B3n%20de%20Recursos%20Naturales.jpg?width=240",
+    "Fundación Telefónica": "https://commons.wikimedia.org/wiki/Special:FilePath/Telefonica-Logo-1zeilig-Blue-RGB.png?width=240",
+    "UNSAAC": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo%20UNSAAC.png?width=240",
+    "Mine-Class": "https://mine-class.com/__l5e/assets-v1/4f97a6a5-84e3-4838-8d6e-bbdc891b7cd0/logo_m.png",
+    "Cetye": "https://www.cetye.cl/assets/logo.png"
   }
 }
