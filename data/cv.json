@@ -1,0 +1,216 @@
+{
+  "nombre": "Ian Franco Arias Carrasco",
+  "titular": "Ingeniero en Geomensura y Cartografía | Analista Geoespacial | Docente de Educación Superior",
+  "ubicacion": "Santiago, Chile",
+  "actualizado": "Octubre 2026",
+  "contacto": {
+    "correo": "ian.arias.carrasco@gmail.com",
+    "correo_docente": "iarias4@santotomas.cl",
+    "linkedin": "https://www.linkedin.com/in/ian-arias",
+    "github": "https://github.com/ayam-arias",
+    "sitio": "https://ayam-arias.github.io",
+    "whatsapp": ["56", "9346", "49804"]
+  },
+  "cifras": {
+    "anios_experiencia": "12+",
+    "licencia_rpas": "DGAC N° 16114"
+  },
+  "perfil": [
+    "Ingeniero en Geomensura y Cartografía con más de 12 años de trayectoria en el Servicio Aerofotogramétrico, institución pública de Chile. Especializado en análisis geoespacial y control de calidad (QA/QC) de productos vectoriales, ráster, LiDAR e imágenes satelitales bajo estándares ASPRS 2015 e IPHG, con tasas de aprobación sostenidas sobre el 95 % en aproximadamente 80 productos validados por año. Cursa dos magíster en paralelo: Estadística Aplicada y Ciencia de Datos (UBO) y Educación (UMC).",
+    "Perfil integrado en tres ejes: SIG de alta precisión (ArcGIS Pro, ArcGIS Online, fotogrametría); análisis de datos espaciales, teledetección aplicada y GeoIA (NASA ARSET, CONAE, Google Earth Engine, Python geoespacial); y operación RPAS certificada DGAC con aplicación en minería, geotecnia e infraestructura (WingtraOne GEN II, WingtraRAY, Pix4D, Agisoft Metashape).",
+    "Docencia activa en dos instituciones de educación superior (IP AIEP e IP Santo Tomás) y relatoría técnica en OTEC (Corvus Group, Cetye e Inel, Perú — primera experiencia como relator internacional), con incorporación próxima como instructor para Chilquinta Energía."
+  ],
+  "experiencia": [
+    {
+      "organizacion": "Servicio Aerofotogramétrico – Institución pública de Chile",
+      "logo": "",
+      "tipo": "profesional",
+      "cargos": [
+        {
+          "cargo": "Analista Geoespacial – Infraestructura de Datos Espaciales",
+          "periodo": "Dic. 2023 – Actualidad",
+          "logros": [
+            "Valida aproximadamente 80 productos geoespaciales al año bajo estándares ASPRS 2015 e IPHG (cartas aeronáuticas, DEM/DTM/DSM, nubes de puntos LiDAR, mosaicos, fotogramas, informes de vuelo, datos cinemáticos, puntos de referencia topográficos y planimetría SIG), con una tasa de aprobación sostenida sobre el 95 %.",
+            "Gestiona, analiza y visualiza información geoespacial en ArcGIS Pro y ArcGIS Online como contraparte técnica en proyectos geomáticos.",
+            "Desarrolla y administra plataformas SIG web (Web Maps, Dashboards, StoryMaps, Field Maps, Survey123 y Hub) para difusión y apoyo a la toma de decisiones.",
+            "Referente de validación y auditoría de planes de vuelo RPAS bajo la norma DAN 151 (edición N° 4), con informe técnico de análisis normativo y matriz de riesgo.",
+            "Autor del Plan de Desarrollo institucional 2030 del Servicio.",
+            "Capacitó a 21 funcionarios en el uso de ArcGIS Pro."
+          ]
+        },
+        {
+          "cargo": "Especialista SIG",
+          "periodo": "Abr. 2019 – Dic. 2023",
+          "logros": [
+            "Procesos avanzados de fotointerpretación y vectorización de información geoespacial.",
+            "Administración, actualización y control de bases de datos geográficas.",
+            "Elaboración de cartografía temática para proyectos institucionales."
+          ]
+        },
+        {
+          "cargo": "Ayudante SIG – Cartografía aeronáutica",
+          "periodo": "Abr. 2016 – Mar. 2019",
+          "logros": [
+            "Apoyo técnico en la actualización de la cartografía aeronáutica nacional.",
+            "Procesos SIG y cartográficos en coordinación con equipos multidisciplinarios."
+          ]
+        }
+      ]
+    },
+    {
+      "organizacion": "Instituto Profesional AIEP",
+      "logo": "assets/logos/aiep.png",
+      "tipo": "docencia",
+      "cargos": [
+        {
+          "cargo": "Docente de Especialidad – Carrera Técnico en Topografía",
+          "periodo": "Mar. 2026 – Actualidad",
+          "logros": [
+            "Seis asignaturas: Taller Básico de Topografía, Cartografía Digital, Dibujo Topográfico y Cubicación, Taller de Información Catastral y Geoinformación, Modelamiento Básico Digital y Taller de Fotogrametría.",
+            "Ciclo completo del dato geoespacial: captura con instrumental topográfico y GNSS, planificación de vuelos RPAS bajo normativa DGAC (DAN 91/151), nubes de puntos, MDE, ortofoto, modelamiento digital y cartografía catastral.",
+            "Diseño de material, rúbricas y evaluaciones con Aprendizaje Basado en Proyectos (ABP).",
+            "Ganador del Concurso de Innovación Docente AIEP 2026 con el proyecto «Aula Aerotransportada»."
+          ]
+        }
+      ]
+    },
+    {
+      "organizacion": "Instituto Profesional Santo Tomás",
+      "logo": "assets/logos/santo-tomas.png",
+      "tipo": "docencia",
+      "cargos": [
+        {
+          "cargo": "Docente – Sistemas Globales de Navegación por Satélite (Ingeniería en Geomensura)",
+          "periodo": "2026 – Actualidad",
+          "logros": [
+            "Constelaciones GNSS, posicionamiento estático y cinemático (RTK/PPK), fuentes de error, sistemas de referencia y transformación de datum, y control geodésico de levantamientos."
+          ]
+        }
+      ]
+    },
+    {
+      "organizacion": "Corvus Group SpA",
+      "logo": "assets/logos/corvus-group.png",
+      "tipo": "docencia",
+      "cargos": [
+        {
+          "cargo": "Instructor – Curso de Fotogrametría con Drones",
+          "periodo": "Ago. 2025 – Actualidad",
+          "logros": [
+            "Diseño e impartición de un curso de 12 horas académicas para geógrafos y operadores RPAS, con foco en cubicación volumétrica y productos cartográficos.",
+            "Flujos prácticos con Pix4D Mapper y Agisoft Metashape integrados a entornos SIG."
+          ]
+        }
+      ]
+    },
+    {
+      "organizacion": "Cetye",
+      "logo": "",
+      "tipo": "docencia",
+      "cargos": [
+        {
+          "cargo": "Relator – Formación Técnica en Geomática y RPAS",
+          "periodo": "2026 – Actualidad",
+          "logros": [
+            "Formación técnica en sistemas de información geográfica y operación RPAS para profesionales del sector, en modalidad OTEC."
+          ]
+        }
+      ]
+    },
+    {
+      "organizacion": "Inel (Perú)",
+      "logo": "assets/logos/inel.png",
+      "tipo": "docencia",
+      "cargos": [
+        {
+          "cargo": "Relator Internacional – Sistemas de Información Geográfica",
+          "periodo": "2026 – Actualidad",
+          "logros": [
+            "Primera experiencia como relator internacional, en un OTEC con sede en Perú."
+          ]
+        }
+      ]
+    },
+    {
+      "organizacion": "Chilquinta Energía",
+      "logo": "",
+      "tipo": "docencia",
+      "cargos": [
+        {
+          "cargo": "Instructor externo",
+          "periodo": "Incorporación 2026",
+          "logros": [
+            "Formación técnica de personal de una de las principales distribuidoras de energía eléctrica del país."
+          ]
+        }
+      ]
+    },
+    {
+      "organizacion": "Quality & Improvement",
+      "logo": "",
+      "tipo": "docencia",
+      "cargos": [
+        {
+          "cargo": "Relator – Curso ArcGIS Pro",
+          "periodo": "Dic. 2023 – Mar. 2024",
+          "logros": [
+            "Programa de 32 horas académicas en ArcGIS Pro para 24 funcionarios municipales, orientado al análisis espacial y la gestión territorial.",
+            "Introducción al ecosistema ArcGIS Online aplicado a la gestión territorial municipal."
+          ]
+        }
+      ]
+    }
+  ],
+  "formacion": {
+    "en_curso": [
+      { "titulo": "Magíster en Estadística Aplicada y Ciencia de Datos", "institucion": "Universidad Bernardo O'Higgins", "detalle": "En curso · egreso 2028 · alumno regular 2026", "logo": "assets/logos/ubo.png" },
+      { "titulo": "Magíster en Educación, mención Currículum y Evaluación Basado en Competencias", "institucion": "Universidad Miguel de Cervantes", "detalle": "En curso · egreso 2027", "logo": "assets/logos/umc.png" }
+    ],
+    "titulos": [
+      { "titulo": "Ingeniería en Geomensura y Cartografía", "institucion": "Universidad Bernardo O'Higgins", "detalle": "2025 · Aprobado con distinción · Título con certificación blockchain", "logo": "assets/logos/ubo.png" },
+      { "titulo": "Técnico de Nivel Superior en Geomensura y Cartografía", "institucion": "Universidad Bernardo O'Higgins", "detalle": "2022 · Aprobado con distinción", "logo": "assets/logos/ubo.png" },
+      { "titulo": "Técnico de Nivel Superior en Aerofotogrametría", "institucion": "Escuela técnica – Institución pública de Chile", "detalle": "2015", "logo": "" }
+    ],
+    "licencias": [
+      { "titulo": "Credencial de Operador RPAS N° 16114", "institucion": "Dirección General de Aeronáutica Civil (DGAC)", "detalle": "2024 · vigente hasta 2027 · habilitaciones de vuelo nocturno y operaciones sobre personas" }
+    ],
+    "diplomados": [
+      { "titulo": "Diplomado en Innovación Estratégica con Uso de Inteligencia Artificial", "institucion": "Universidad de los Andes", "horas": null, "anio": "En curso (dic. 2026)" },
+      { "titulo": "Diplomado en Docencia en la Educación Superior Técnica", "institucion": "Instituto Profesional AIEP", "horas": 92, "anio": "2026" },
+      { "titulo": "Diplomado en Ciencia de Datos aplicada en Machine Learning", "institucion": "E-learnica", "horas": 80, "anio": "2026" },
+      { "titulo": "Diplomado en SIG y Teledetección Aplicados a la Gestión de los Recursos Naturales y la Minería", "institucion": "Universidad Andrés Bello", "horas": 180, "anio": "2025" },
+      { "titulo": "Diplomado en Inteligencia en Clientes y Big Data", "institucion": "Universidad de Chile", "horas": 120, "anio": "2025" },
+      { "titulo": "Diplomado en Inclusión y Diversidad: Estrategias de Gestión para una Educación Transformadora", "institucion": "Universidad de Playa Ancha", "horas": 90, "anio": "2025" },
+      { "titulo": "Diplomado en Inclusión Educativa: Normativas y Estrategias Metodológicas para el Trabajo en el Aula", "institucion": "Universidad de Playa Ancha", "horas": 90, "anio": "2025" },
+      { "titulo": "Diplomado en Habilidades para el Desarrollo Profesional", "institucion": "Universidad de Playa Ancha", "horas": 90, "anio": "2025" },
+      { "titulo": "Diplomado en Diseño Web y Experiencia de Usuario UX/UI", "institucion": "Instituto Profesional AIEP", "horas": 90, "anio": "2025" },
+      { "titulo": "Diplomado en Emprendimiento y Gestión Digital", "institucion": "Instituto Profesional AIEP", "horas": 90, "anio": "2025" },
+      { "titulo": "Diplomado en Crecimiento Digital de Negocios y Marca Personal", "institucion": "Universidad de Playa Ancha", "horas": 100, "anio": "2024" },
+      { "titulo": "Diplomado en Fundamentos de la Programación y Desarrollo Web", "institucion": "Universidad de Playa Ancha", "horas": 110, "anio": "2024" },
+      { "titulo": "Diplomado en Diseño y Gestión Ágil de Proyectos", "institucion": "Universidad de Playa Ancha", "horas": 100, "anio": "2024" },
+      { "titulo": "Diplomado en Emprendimiento Estratégico", "institucion": "Instituto Profesional de Chile", "horas": 110, "anio": "2024" },
+      { "titulo": "Diplomado en Promoción de una Convivencia Libre de Violencia", "institucion": "Servicio Nacional del Patrimonio Cultural / BiblioRedes", "horas": 100, "anio": "2022" },
+      { "titulo": "Diplomado en Comunicación en la Era Digital", "institucion": "Instituto Profesional AIEP", "horas": 100, "anio": "2022" },
+      { "titulo": "Diplomado en Diseño y Programación Web", "institucion": "Instituto Profesional AIEP", "horas": 100, "anio": "2022" },
+      { "titulo": "Diplomado en Emprendimiento Social y Marketing Personal", "institucion": "Instituto Profesional AIEP", "horas": 110, "anio": "2022" },
+      { "titulo": "Diplomado en Marketing Digital y Gestión Estratégica", "institucion": "Instituto Profesional AIEP", "horas": 90, "anio": "2022" }
+    ]
+  },
+  "reconocimientos": [
+    { "titulo": "Ganador – Concurso de Innovación Docente AIEP 2026", "detalle": "Proyecto «Aula Aerotransportada», Instituto Profesional AIEP (2026)" },
+    { "titulo": "Primer lugar – Curso de Instructor Técnico", "detalle": "160 h · nota 6,97 (2026)" },
+    { "titulo": "Becario – Teaching with Purpose", "detalle": "Santander Open Academy en colaboración con Harvard Business Impact (2026)" },
+    { "titulo": "Semifinalista – Desafío Calor Extremo", "detalle": "Gobierno Regional Metropolitano de Santiago (2024)" }
+  ],
+  "competencias": [
+    { "area": "LiDAR y nubes de puntos", "items": ["LiPowerline V8.0", "LiDAR360 (GreenValley)", "Inspección de corredores eléctricos", "Clasificación ASPRS", "LAS/LAZ", "MDT/MDS", "Distancias 3D conductor–vegetación", "CloudCompare", "ArcGIS Pro (LAS Dataset)"] },
+    { "area": "Fotogrametría", "items": ["Pix4D Mapper", "Agisoft Metashape", "Ortofotos", "Modelos digitales de elevación", "Cubicación volumétrica"] },
+    { "area": "RPAS y flujos UAV", "items": ["Credencial DGAC N° 16114", "Vuelo nocturno", "Operaciones sobre personas", "DJI Pilot / Pilot 2", "Mavic, Phantom, Matrice", "WingtraOne GEN II", "WingtraRAY", "Planificación de rutas y análisis de riesgo"] },
+    { "area": "SIG y teledetección", "items": ["ArcGIS Pro / Online / Enterprise", "QGIS", "Google Earth Engine", "Survey123", "Field Maps", "SuperMap iDesktop", "QA/QC ASPRS 2015"] },
+    { "area": "Geodesia y topografía", "items": ["GNSS RTK/PPK", "Leica TS16", "Leica MS60", "Leica GS18 T", "Leica GS05", "Control geodésico"] },
+    { "area": "Programación y datos", "items": ["Python", "ArcPy", "pandas", "GeoPandas", "laspy", "Power BI", "ETL", "Estadística aplicada"] },
+    { "area": "Hidrología e hidráulica", "items": ["HEC-RAS", "HEC-HMS"] },
+    { "area": "BIM y AEC", "items": ["Autodesk Revit", "Autodesk Forma / Build Cloud", "Integración SIG–BIM"] },
+    { "area": "Idiomas", "items": ["Español (nativo)", "Inglés técnico", "Portugués técnico (lectura)"] }
+  ]
+}
