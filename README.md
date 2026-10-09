@@ -1,5 +1,9 @@
 # CV vivo – Ian Arias Carrasco
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ian--arias--carrasco-1B2A4A?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ian-arias)
+[![Instagram](https://img.shields.io/badge/Instagram-@__geoia.n-E8772A?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/_geoia.n)
+![GIS](https://img.shields.io/badge/GIS-Geomática-21A9D8?style=flat-square)
+
 Sitio estático publicado con GitHub Pages en **https://ayam-arias.github.io**.
 No usa frameworks ni servicios de pago: todo el contenido sale de dos archivos JSON.
 
