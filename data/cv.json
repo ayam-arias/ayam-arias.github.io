@@ -15,7 +15,8 @@
       "49804"
     ],
     "instagram": "https://www.instagram.com/_geoia.n",
-    "instagram_usuario": "@_geoia.n"
+    "instagram_usuario": "@_geoia.n",
+    "correo_aiep": "IAN.ARIAS@correoaiep.cl"
   },
   "cifras": {
     "anios_experiencia": "12+",
@@ -441,5 +442,19 @@
         "Portugués técnico (lectura)"
       ]
     }
-  ]
+  ],
+  "logos_instituciones": {
+    "Instituto Profesional AIEP": "assets/logos/aiep.png",
+    "Universidad de Playa Ancha": "assets/logos/upla.png",
+    "Instituto Profesional de Chile": "assets/logos/ipchile.png",
+    "Universidad de Chile": "assets/logos/uchile.png",
+    "E-learnica": "assets/logos/elearnica.png",
+    "BiblioRedes": "assets/logos/biblioredes.png",
+    "Universidad Andrés Bello": "assets/logos/unab.png",
+    "Universidad Bernardo O'Higgins": "assets/logos/ubo.png",
+    "Universidad Miguel de Cervantes": "assets/logos/umc.png",
+    "Santo Tomás": "assets/logos/santo-tomas.png",
+    "Corvus Group": "assets/logos/corvus-group.png",
+    "Inel": "assets/logos/inel.png"
+  }
 }
