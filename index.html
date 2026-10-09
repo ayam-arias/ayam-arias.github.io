@@ -16,7 +16,7 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="assets/foto.jpg">
+<link rel="icon" href="assets/foto.jpg?v=6">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -31,7 +31,7 @@ code{color:var(--geoia-cyan)}
 .wrap{max-width:960px;margin:0 auto;padding:0 16px}
 header.hero{background:var(--navy);border-bottom:4px solid var(--geoia-amber);color:#fff;padding:32px 0 28px}
 .hero .wrap{display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px}
-.foto{width:132px;height:132px;border-radius:50%;object-fit:cover;border:4px solid #fff;background:#fff}
+.foto{width:132px;height:132px;border-radius:50%;object-fit:cover;object-position:50% 30%;border:4px solid #fff;background:#fff;box-shadow:0 0 0 3px var(--geoia-amber)}
 h1{margin:0;font-size:1.6rem;line-height:1.2;letter-spacing:-.01em}
 .titular{margin:0;color:#cfdcf7;font-size:.98rem;max-width:620px}
 .ubic{margin:0;color:#aebfe3;font-size:.88rem}
@@ -59,6 +59,8 @@ h3{font-size:1rem;margin:0}
 .tl>li::before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--geoia-cyan);border:2px solid #fff;box-shadow:0 0 0 2px var(--geoia-cyan)}
 .tl .org{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .tl .org img{height:28px;max-width:110px;object-fit:contain}
+.cli{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;color:var(--muted)}
+.tl .org .cli img{height:22px}
 .tag{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:99px;background:var(--soft);color:#0F6E91}
 .cargo{margin-top:8px}
 .cargo .c{font-weight:600}
@@ -86,7 +88,9 @@ h3{font-size:1rem;margin:0}
 .count{font-size:.85rem;color:var(--muted);margin:2px 0 10px}
 .cert{flex-direction:column;gap:6px}
 .cert .top{display:flex;justify-content:space-between;gap:8px;width:100%}
-.cert .top .tag{align-self:flex-start;flex:none;height:auto}
+.cert .top .cli{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;color:var(--muted)}
+.tl .org .cli img{height:22px}
+.tag{align-self:flex-start;flex:none;height:auto}
 .cert .areas{display:flex;flex-wrap:wrap;gap:4px}
 .cert .ver{margin-top:4px;align-self:flex-start;padding:8px 12px;border-radius:8px;background:var(--geoia-amber);color:#fff;text-decoration:none;font-weight:600;font-size:.85rem}
 .cert .ver:hover{background:var(--navy2)}
@@ -130,7 +134,7 @@ footer{padding:28px 0 40px;color:var(--muted);font-size:.8rem;text-align:center}
 <body>
 <header class="hero">
   <div class="wrap">
-    <img class="foto" src="assets/foto.jpg" alt="Fotografía de Ian Arias Carrasco" width="150" height="150">
+    <img class="foto" src="assets/foto.jpg?v=6" alt="Fotografía de Ian Arias Carrasco" width="150" height="150">
     <div>
       <h1 id="nombre">Ian Franco Arias Carrasco</h1>
       <p class="titular" id="titular"></p>
@@ -212,13 +216,13 @@ function renderCV(cv){
   $('#b-linkedin').href=c.linkedin;$('#b-mail').href='mailto:'+c.correo;
   const wa='https://wa.me/'+c.whatsapp.join('');$('#b-wa').href=wa;
   $('#perfil-txt').innerHTML=cv.perfil.map(p=>'<p>'+esc(p)+'</p>').join('');
-  $('#tl').innerHTML=cv.experiencia.map(o=>`<li><div class="org">${o.logo?`<img src="${esc(o.logo)}" alt="" loading="lazy">`:''}<h3>${esc(o.organizacion)}</h3><span class="tag">${o.tipo==='docencia'?'Docencia / relatoría':'Profesional'}</span></div>${o.cargos.map(k=>`<div class="cargo"><div class="c">${esc(k.cargo)}</div><div class="p">${esc(k.periodo)}</div><ul>${k.logros.map(l=>'<li>'+esc(l)+'</li>').join('')}</ul></div>`).join('')}</li>`).join('');
+  $('#tl').innerHTML=cv.experiencia.map(o=>`<li><div class="org">${o.logo?`<img src="${esc(o.logo)}" alt="" loading="lazy">`:''}<h3>${esc(o.organizacion)}</h3><span class="tag">${o.tipo==='docencia'?'Docencia / relatoría':'Profesional'}</span>${o.cliente?`<span class="cli">Cliente:${o.cliente.logo?` <img src="${esc(o.cliente.logo)}" alt="" loading="lazy">`:''} ${esc(o.cliente.nombre)}</span>`:''}</div>${o.cargos.map(k=>`<div class="cargo"><div class="c">${esc(k.cargo)}</div><div class="p">${esc(k.periodo)}</div><ul>${k.logros.map(l=>'<li>'+esc(l)+'</li>').join('')}</ul></div>`).join('')}</li>`).join('');
   const card=x=>`<div class="card">${x.logo?`<img src="${esc(x.logo)}" alt="" loading="lazy">`:''}<div><div class="t">${esc(x.titulo)}</div><div class="i">${esc(x.institucion)}</div><div class="d">${esc(x.detalle)}</div></div></div>`;
   $('#f-titulos').innerHTML=cv.formacion.titulos.map(card).join('');
   $('#f-curso').innerHTML=cv.formacion.en_curso.map(card).join('');
   $('#f-lic').innerHTML=cv.formacion.licencias.map(card).join('');
   $('#f-dip').innerHTML=cv.formacion.diplomados.map(d=>{const l=logoDe(d.institucion);return `<li>${l?`<img src="${esc(l)}" alt="" loading="lazy">`:''}<div>${esc(d.titulo)}<small>${esc(d.institucion)}${d.horas?' · '+d.horas+' h':''} · ${esc(d.anio)}</small></div></li>`}).join('');
-  $('#f-rec').innerHTML=cv.reconocimientos.map(r=>`<li>${esc(r.titulo)}<small>${esc(r.detalle)}</small></li>`).join('');
+  $('#f-rec').innerHTML=cv.reconocimientos.map(r=>`<li>${r.logo?`<img src="${esc(r.logo)}" alt="" loading="lazy">`:''}<div>${esc(r.titulo)}<small>${esc(r.detalle)}</small></div></li>`).join('');
   $('#skills').innerHTML=cv.competencias.map(s=>`<div class="skill"><h3>${esc(s.area)}</h3><div class="pills">${s.items.map(i=>'<span class="pill">'+esc(i)+'</span>').join('')}</div></div>`).join('');
   $('#contact-list').innerHTML=`<a class="btn" href="mailto:${esc(c.correo)}">${esc(c.correo)}</a><a class="btn" href="mailto:${esc(c.correo_docente)}">${esc(c.correo_docente)} (Santo Tomás)</a>${c.correo_aiep?`<a class="btn" href="mailto:${esc(c.correo_aiep)}">${esc(c.correo_aiep)} (AIEP)</a>`:''}<a class="btn" href="${wa}" target="_blank" rel="noopener">WhatsApp</a><a class="btn" href="${esc(c.linkedin)}" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="${esc(c.github)}" target="_blank" rel="noopener">GitHub</a>${c.instagram?`<a class="btn" href="${esc(c.instagram)}" target="_blank" rel="noopener">Instagram ${esc(c.instagram_usuario||"")}</a>`:""}`;
 }
