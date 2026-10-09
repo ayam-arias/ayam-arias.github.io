@@ -201,8 +201,8 @@ let CERTS=[],area='Todas',shown=PAGE,LOGOS={};
 const logoDe=inst=>{inst=String(inst||'');const k=Object.keys(LOGOS).sort((a,b)=>b.length-a.length).find(k=>inst.includes(k));return k?LOGOS[k]:'';};
 
 Promise.all([
-  fetch('data/cv.json').then(r=>r.json()),
-  fetch('data/certificados.json').then(r=>r.ok?r.json():[]).catch(()=>[])
+  fetch('data/cv.json',{cache:'no-cache'}).then(r=>r.json()),
+  fetch('data/certificados.json',{cache:'no-cache'}).then(r=>r.ok?r.json():[]).catch(()=>[])
 ]).then(([cv,certs])=>{renderCV(cv);CERTS=certs;renderStats(cv,certs);renderChips();renderCerts();})
  .catch(e=>{console.error(e);$('#perfil-txt').innerHTML='<p class="empty">No se pudo cargar el contenido.</p>';});
 
