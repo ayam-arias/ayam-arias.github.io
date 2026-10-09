@@ -34,7 +34,8 @@
   "institucion": "E-learnica",
   "horas": 80,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Ciencia de Datos e IA"
   ],
   "archivo": "diplomado-en-ciencia-de-datos-aplicada-en-machine-learning-e-learnica.pdf",
   "tipo": "diplomado"
@@ -44,7 +45,9 @@
   "institucion": "Instituto Profesional AIEP",
   "horas": 100,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Negocios, Emprendimiento y Marca Personal",
+   "Habilidades Transversales y Desarrollo Profesional"
   ],
   "archivo": "diplomado-en-comunicacion-en-la-era-digital-instituto-profesional-aiep.pdf",
   "tipo": "diplomado"
@@ -54,7 +57,8 @@
   "institucion": "Universidad de Playa Ancha",
   "horas": 100,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Negocios, Emprendimiento y Marca Personal"
   ],
   "archivo": "diplomado-en-crecimiento-digital-de-negocios-y-marca-personal-universidad-de-playa-ancha.pdf",
   "tipo": "diplomado"
@@ -64,7 +68,8 @@
   "institucion": "Instituto Profesional AIEP",
   "horas": 90,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Desarrollo Web, UX y Programación"
   ],
   "archivo": "diplomado-en-diseno-web-y-experiencia-de-usuario-ux-ui-instituto-profesional-aiep.pdf",
   "tipo": "diplomado"
@@ -74,7 +79,9 @@
   "institucion": "Universidad de Playa Ancha",
   "horas": 100,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Negocios, Emprendimiento y Marca Personal",
+   "Habilidades Transversales y Desarrollo Profesional"
   ],
   "archivo": "diplomado-en-diseno-y-gestion-agil-de-proyectos-universidad-de-playa-ancha.pdf",
   "tipo": "diplomado"
@@ -84,7 +91,8 @@
   "institucion": "Instituto Profesional AIEP",
   "horas": 100,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Desarrollo Web, UX y Programación"
   ],
   "archivo": "diplomado-en-diseno-y-programacion-web-instituto-profesional-aiep.pdf",
   "tipo": "diplomado"
@@ -94,7 +102,8 @@
   "institucion": "Instituto Profesional AIEP",
   "horas": 92,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Educación y Docencia"
   ],
   "archivo": "diplomado-en-docencia-en-la-educacion-superior-tecnica-instituto-profesional-aiep.pdf",
   "tipo": "diplomado"
@@ -104,7 +113,8 @@
   "institucion": "Instituto Profesional de Chile",
   "horas": 110,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Negocios, Emprendimiento y Marca Personal"
   ],
   "archivo": "diplomado-en-emprendimiento-estrategico-instituto-profesional-de-chile.pdf",
   "tipo": "diplomado"
@@ -114,7 +124,8 @@
   "institucion": "Instituto Profesional AIEP",
   "horas": 110,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Negocios, Emprendimiento y Marca Personal"
   ],
   "archivo": "diplomado-en-emprendimiento-social-y-marketing-personal-instituto-profesional-aiep.pdf",
   "tipo": "diplomado"
@@ -124,7 +135,8 @@
   "institucion": "Instituto Profesional AIEP",
   "horas": 90,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Negocios, Emprendimiento y Marca Personal"
   ],
   "archivo": "diplomado-en-emprendimiento-y-gestion-digital-instituto-profesional-aiep.pdf",
   "tipo": "diplomado"
@@ -134,7 +146,9 @@
   "institucion": "Universidad de Playa Ancha",
   "horas": 110,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Ciencia de Datos e IA",
+   "Desarrollo Web, UX y Programación"
   ],
   "archivo": "diplomado-en-fundamentos-de-la-programacion-y-desarrollo-web-universidad-de-playa-ancha.pdf",
   "tipo": "diplomado"
@@ -144,7 +158,8 @@
   "institucion": "Universidad de Playa Ancha",
   "horas": 90,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Habilidades Transversales y Desarrollo Profesional"
   ],
   "archivo": "diplomado-en-habilidades-para-el-desarrollo-profesional-universidad-de-playa-ancha.pdf",
   "tipo": "diplomado"
@@ -154,7 +169,8 @@
   "institucion": "Universidad de Playa Ancha",
   "horas": 90,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Educación y Docencia"
   ],
   "archivo": "diplomado-en-inclusion-educativa-normativas-y-estrategias-metodologicas-para-el-trabajo-en.pdf",
   "tipo": "diplomado"
@@ -164,7 +180,8 @@
   "institucion": "Universidad de Playa Ancha",
   "horas": 90,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Educación y Docencia"
   ],
   "archivo": "diplomado-en-inclusion-y-diversidad-estrategias-de-gestion-para-una-educacion-transformado.pdf",
   "tipo": "diplomado"
@@ -174,7 +191,9 @@
   "institucion": "Universidad de Chile",
   "horas": 120,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Ciencia de Datos e IA",
+   "Negocios, Emprendimiento y Marca Personal"
   ],
   "archivo": "diplomado-en-inteligencia-en-clientes-y-big-data-universidad-de-chile.pdf",
   "tipo": "diplomado"
@@ -184,7 +203,8 @@
   "institucion": "Instituto Profesional AIEP",
   "horas": 90,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Negocios, Emprendimiento y Marca Personal"
   ],
   "archivo": "diplomado-en-marketing-digital-y-gestion-estrategica-instituto-profesional-aiep.pdf",
   "tipo": "diplomado"
@@ -194,7 +214,9 @@
   "institucion": "Servicio Nacional del Patrimonio Cultural / BiblioRedes",
   "horas": 100,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "Educación y Docencia",
+   "Habilidades Transversales y Desarrollo Profesional"
   ],
   "archivo": "diplomado-en-promocion-de-una-convivencia-libre-de-violencia-servicio-nacional-del-patrimo.pdf",
   "tipo": "diplomado"
@@ -206,10 +228,22 @@
   "areas": [
    "Títulos y Diplomados",
    "Geomática y SIG",
-   "Teledetección y Observación de la Tierra"
+   "Teledetección y Observación de la Tierra",
+   "Minería y Geología",
+   "Medio Ambiente, Cambio Climático y SEIA"
   ],
   "archivo": "diplomado-en-sig-y-teledeteccion-aplicados-a-la-gestion-de-los-recursos-naturales-y-la-min.pdf",
   "tipo": "diplomado"
+ },
+ {
+  "titulo": "1a Jornada Introductoria al Armado, Configuración y Control PID de Drones",
+  "institucion": "Universidad de la Defensa Nacional (Argentina)",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas"
+  ],
+  "archivo": "1a-jornada-introductoria-al-armado-configuracion-y-control-pid-de-drones-undef.pdf",
+  "tipo": "curso"
  },
  {
   "titulo": "1er Ciclo de Geosoftware",
@@ -222,13 +256,56 @@
   "tipo": "curso"
  },
  {
+  "titulo": "Academia de Jóvenes por el Océano en Chile",
+  "institucion": "Fundación Uno Punto Cinco",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA"
+  ],
+  "archivo": "academia-de-jovenes-por-el-oceano-en-chile-uno-punto-cinco.pdf",
+  "tipo": "curso"
+ },
+ {
   "titulo": "Acceso y Consulta de Datos e Información Geográfica de los Servicios del Agro",
   "institucion": "CIREN",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Territorio, Agro y Gestión Pública"
   ],
   "archivo": "acceso-y-consulta-de-datos-e-informacion-geografica-de-los-servicios-del-agro-ciren.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Alfabetización en IA (AI Literacy)",
+  "institucion": "IBM",
+  "horas": null,
+  "areas": [
+   "Ciencia de Datos e IA"
+  ],
+  "archivo": "alfabetizacion-en-ia-ai-literacy-ibm.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Análisis Cualitativo y Cuantitativo del Riesgo de Desastres",
+  "institucion": "BID / Coursera",
+  "horas": null,
+  "areas": [
+   "Gestión del Riesgo de Desastres"
+  ],
+  "archivo": "analisis-cualitativo-y-cuantitativo-del-riesgo-de-desastres-bid-coursera.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Análisis de Big Data para Aplicaciones Relacionadas con el Agua",
+  "institucion": "UNU-INWEH",
+  "horas": null,
+  "areas": [
+   "GeoAI y Programación Geoespacial",
+   "Ciencia de Datos e IA",
+   "Recursos Hídricos y Modelamiento"
+  ],
+  "archivo": "analisis-de-big-data-para-aplicaciones-relacionadas-con-el-agua-unu-inweh.pdf",
   "tipo": "curso"
  },
  {
@@ -236,7 +313,9 @@
   "institucion": "UNU-INWEH",
   "horas": null,
   "areas": [
-   "Teledetección y Observación de la Tierra"
+   "Teledetección y Observación de la Tierra",
+   "GeoAI y Programación Geoespacial",
+   "Recursos Hídricos y Modelamiento"
   ],
   "archivo": "analisis-de-datos-de-satelites-activos-y-pasivos-utilizando-computacion-en-la-nube-para-ag.pdf",
   "tipo": "curso"
@@ -246,7 +325,9 @@
   "institucion": "LinkedIn Learning",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "GeoAI y Programación Geoespacial",
+   "Ciencia de Datos e IA"
   ],
   "archivo": "analitica-avanzada-de-datos-geoespaciales-en-python-linkedin-learning.pdf",
   "tipo": "curso"
@@ -256,9 +337,32 @@
   "institucion": "LinkedIn Learning",
   "horas": null,
   "areas": [
-   "Teledetección y Observación de la Tierra"
+   "Teledetección y Observación de la Tierra",
+   "GeoAI y Programación Geoespacial",
+   "Ciencia de Datos e IA"
   ],
   "archivo": "analitica-de-datos-raster-geoespaciales-en-python-linkedin-learning.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Aplicación de Inteligencia Artificial en la Docencia Universitaria",
+  "institucion": "Universidad de Chile / U. de Talca / UNAP",
+  "horas": 8,
+  "areas": [
+   "Educación y Docencia"
+  ],
+  "archivo": "aplicacion-de-inteligencia-artificial-en-la-docencia-universitaria-universidad-de-chile.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Áreas de Influencia de los Sistemas de Vida y Costumbres de Grupos Humanos en el SEIA",
+  "institucion": "Servicio de Evaluación Ambiental",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA",
+   "Territorio, Agro y Gestión Pública"
+  ],
+  "archivo": "areas-de-influencia-de-los-sistemas-de-vida-y-costumbres-de-grupos-humanos-servicio-de-eva.pdf",
   "tipo": "curso"
  },
  {
@@ -286,9 +390,52 @@
   "institucion": "ENAP Brasil",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Gestión del Riesgo de Desastres"
   ],
-  "archivo": "cartografia-de-peligro-de-movimientos-en-masa-version-pt-enap-brasil.pdf",
+  "archivo": "cartografia-de-peligro-de-movimientos-en-masa-enap-brasil.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Certificado Aula Innovadora",
+  "institucion": "Instituto Profesional AIEP",
+  "horas": null,
+  "areas": [
+   "Educación y Docencia"
+  ],
+  "archivo": "certificado-aula-innovadora-instituto-profesional-aiep.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Certificado Aula Innovadora Advance",
+  "institucion": "Instituto Profesional AIEP",
+  "horas": null,
+  "areas": [
+   "Educación y Docencia"
+  ],
+  "archivo": "certificado-aula-innovadora-advance-instituto-profesional-aiep.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Certificado Sostenible 2026",
+  "institucion": "Instituto Profesional AIEP",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA",
+   "Educación y Docencia"
+  ],
+  "archivo": "certificado-sostenible-2026-instituto-profesional-aiep.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Certificado Sostenible Pro",
+  "institucion": "Instituto Profesional AIEP",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA",
+   "Educación y Docencia"
+  ],
+  "archivo": "certificado-sostenible-pro-instituto-profesional-aiep.pdf",
   "tipo": "curso"
  },
  {
@@ -296,19 +443,173 @@
   "institucion": "Esri",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "GeoAI y Programación Geoespacial",
+   "Ciencia de Datos e IA"
   ],
   "archivo": "ciencia-de-datos-espaciales-la-nueva-frontera-de-la-analitica-esri.pdf",
   "tipo": "curso"
  },
  {
-  "titulo": "MOOC de Astronomía Básica",
-  "institucion": "Universidad de La Frontera (UFRO)",
+  "titulo": "Cierre de Faenas Mineras",
+  "institucion": "Mine-Class",
   "horas": null,
   "areas": [
-   "Teledetección y Observación de la Tierra"
+   "Minería y Geología"
   ],
-  "archivo": "de-astronomia-basica-ufro-mooc.pdf",
+  "archivo": "mine-class-cierre-de-faenas-mineras.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Consideración del cambio climático en el SEIA",
+  "institucion": "Servicio de Evaluación Ambiental",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA"
+  ],
+  "archivo": "consideracion-del-cambio-climatico-en-el-seia-servicio-de-evaluacion-ambiental.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Cuerpo Docente con Certificación de Gemini (vigente hasta 2029)",
+  "institucion": "Google for Education",
+  "horas": null,
+  "areas": [
+   "Educación y Docencia"
+  ],
+  "archivo": "cuerpo-docente-con-certificacion-de-gemini-google-for-education.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Curso Data Science",
+  "institucion": "Universidad de Chile",
+  "horas": null,
+  "areas": [
+   "Ciencia de Datos e IA"
+  ],
+  "archivo": "curso-data-science-uch.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Curso de Instructor Técnico (160 h, primer lugar)",
+  "institucion": "Escuela técnica – Institución pública de Chile",
+  "horas": 160,
+  "areas": [
+   "Educación y Docencia"
+  ],
+  "archivo": "curso-instructor-tecnico-2026.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Curso Operador Básico WingtraOne GEN II",
+  "institucion": "Wingtra Academy",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas"
+  ],
+  "archivo": "curso-operador-basico-wingtraone-gen-ii-wingtra-academy.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Curso Operador WingtraOne GEN II v2.0",
+  "institucion": "Wingtra Academy",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas"
+  ],
+  "archivo": "curso-operador-wingtraone-gen-ii-v2-0-wingtra-academy.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Curso Operador WingtraRAY",
+  "institucion": "Wingtra Academy",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas"
+  ],
+  "archivo": "curso-operador-wingtraray-wingtra-academy.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Curso Sistema de Gestión de la Seguridad Operacional (SMS)",
+  "institucion": "Dirección General de Aeronáutica Civil (DGAC)",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas"
+  ],
+  "archivo": "curso-sistema-de-gestion-de-la-seguridad-operacional-sms-direccion-general-de-aeronautica.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Curso Técnico Topógrafo",
+  "institucion": "Aprende.org – Fundación Carlos Slim",
+  "horas": null,
+  "areas": [
+   "Topografía, Geodesia e Instrumental"
+  ],
+  "archivo": "aprende-org-curso-tecnico-topografo.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Semifinalista – Desafío Calor Extremo",
+  "institucion": "Gobierno Regional Metropolitano de Santiago",
+  "horas": null,
+  "areas": [
+   "Reconocimientos y Concursos"
+  ],
+  "archivo": "desafio-calor-extremo-semifinalista-gore-santiago.pdf",
+  "tipo": "documento"
+ },
+ {
+  "titulo": "Desarrollo Sostenible: El Impacto de mis Acciones en el Mundo Actual",
+  "institucion": "eClass",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA",
+   "Habilidades Transversales y Desarrollo Profesional"
+  ],
+  "archivo": "curso-desarrollo-sostenible-el-impacto-de-mis-acciones-en-el-mundo-actual-eclass.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Descripción de centrales eólicas de generación de energía eléctrica",
+  "institucion": "Servicio de Evaluación Ambiental",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA"
+  ],
+  "archivo": "descripcion-de-centrales-eolicas-de-generacion-de-energia-electrica-servicio-de-evaluacion.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Diagnóstico y Recuperación de Humedales Costeros",
+  "institucion": "Ministerio del Medio Ambiente – Academia Adriana Hoffmann",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA"
+  ],
+  "archivo": "diagnostico-y-recuperacion-de-humedales-costeros-ministerio-del-medio-ambiente.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Drones: Ensamblaje, Configuración y Pilotaje",
+  "institucion": "Instituto Tecnológico de Puebla",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas"
+  ],
+  "archivo": "drones-ensamblaje-configuracion-y-pilotaje-instituto-tecnologico-de-puebla.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Economía de Minerales",
+  "institucion": "Mine-Class",
+  "horas": null,
+  "areas": [
+   "Minería y Geología",
+   "Negocios, Emprendimiento y Marca Personal"
+  ],
+  "archivo": "mine-class-economia-de-minerales.pdf",
   "tipo": "curso"
  },
  {
@@ -319,6 +620,71 @@
    "Geomática y SIG"
   ],
   "archivo": "editando-datos-con-arcgis-esri.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Educación sobre Cambio Climático: Agua y Suelos",
+  "institucion": "BID / Coursera",
+  "horas": null,
+  "areas": [
+   "Recursos Hídricos y Modelamiento",
+   "Medio Ambiente, Cambio Climático y SEIA",
+   "Educación y Docencia"
+  ],
+  "archivo": "educacion-sobre-cambio-climatico-agua-y-suelos-bid-coursera.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Educación sobre Cambio Climático: Energía y Huella Ecológica",
+  "institucion": "BID / Coursera",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA",
+   "Educación y Docencia"
+  ],
+  "archivo": "educacion-sobre-cambio-climatico-energia-y-huella-ecologica-bid-coursera.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Educación sobre Cambio Climático: Entornos Sostenibles",
+  "institucion": "BID / Coursera",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA",
+   "Educación y Docencia"
+  ],
+  "archivo": "educacion-sobre-cambio-climatico-entornos-sostenibles-bid-coursera.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Elementos de Políticas Públicas",
+  "institucion": "Universidad de la Defensa Nacional (Argentina)",
+  "horas": null,
+  "areas": [
+   "Territorio, Agro y Gestión Pública"
+  ],
+  "archivo": "elementos-de-politicas-publicas-universidad-de-la-defensa-nacional-argentina.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Emprende en Minería",
+  "institucion": "Mine-Class",
+  "horas": null,
+  "areas": [
+   "Minería y Geología",
+   "Negocios, Emprendimiento y Marca Personal"
+  ],
+  "archivo": "mine-class-emprende-en-mineria.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Entrenamiento de Producto WingtraRAY",
+  "institucion": "Wingtra Academy",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas"
+  ],
+  "archivo": "entrenamiento-de-producto-wingtraray-wingtra-academy.pdf",
   "tipo": "curso"
  },
  {
@@ -342,13 +708,25 @@
   "tipo": "curso"
  },
  {
+  "titulo": "Evaluación Ambiental de la Calidad del Aire en el SEIA",
+  "institucion": "Servicio de Evaluación Ambiental",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA"
+  ],
+  "archivo": "evaluacion-ambiental-de-la-calidad-del-aire-servicio-de-evaluacion-ambiental.pdf",
+  "tipo": "curso"
+ },
+ {
   "titulo": "Evaluación Espaciotemporal de la Sequía con Google Earth Engine",
   "institucion": "UNU-INWEH",
   "horas": null,
   "areas": [
-   "Teledetección y Observación de la Tierra"
+   "Teledetección y Observación de la Tierra",
+   "GeoAI y Programación Geoespacial",
+   "Recursos Hídricos y Modelamiento"
   ],
-  "archivo": "evaluacion-espaciotemporal-de-la-sequia-con-google-earth-engine-version-en-unu-inweh.pdf",
+  "archivo": "evaluacion-espaciotemporal-de-la-sequia-con-google-earth-engine-unu-inweh.pdf",
   "tipo": "curso"
  },
  {
@@ -356,9 +734,42 @@
   "institucion": "LinkedIn Learning",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "GeoAI y Programación Geoespacial",
+   "Ciencia de Datos e IA"
   ],
   "archivo": "formacion-esencial-en-analitica-de-datos-geoespaciales-linkedin-learning.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Fotogrametría",
+  "institucion": "BMP Renta",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas",
+   "Topografía, Geodesia e Instrumental"
+  ],
+  "archivo": "fotogrametria-bmp-renta.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Fundamentos de IA (AI Essentials)",
+  "institucion": "Google",
+  "horas": null,
+  "areas": [
+   "Ciencia de Datos e IA"
+  ],
+  "archivo": "fundamentos-de-ia-ai-essentials-google.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Fundamentos de Inteligencia Artificial para la Industria",
+  "institucion": "Universidad de Santiago de Chile",
+  "horas": null,
+  "areas": [
+   "Ciencia de Datos e IA"
+  ],
+  "archivo": "fundamentos-de-inteligencia-artificial-para-la-industria-universidad-de-santiago-de-chile.pdf",
   "tipo": "curso"
  },
  {
@@ -386,17 +797,49 @@
   "institucion": "Udemy",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Desarrollo Web, UX y Programación"
   ],
   "archivo": "fundamentos-de-web-gis-todos-los-tipos-de-interfaces-udemy.pdf",
   "tipo": "curso"
+ },
+ {
+  "titulo": "Fundamentos Profesionales de IA Generativa",
+  "institucion": "Microsoft / LinkedIn",
+  "horas": null,
+  "areas": [
+   "Ciencia de Datos e IA"
+  ],
+  "archivo": "fundamentos-profesionales-de-ia-generativa-microsoft-linkedin.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Fundamentos Profesionales del Análisis de Datos",
+  "institucion": "Microsoft / LinkedIn",
+  "horas": null,
+  "areas": [
+   "Ciencia de Datos e IA"
+  ],
+  "archivo": "fundamentos-profesionales-de-analisis-de-datos-microsoft-linkedin.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Becario – Teaching with Purpose (2026)",
+  "institucion": "Santander Open Academy / Harvard Business Impact",
+  "horas": null,
+  "areas": [
+   "Reconocimientos y Concursos"
+  ],
+  "archivo": "ganador-beca-santander-open-academy-teaching-with-purpose-2026.pdf",
+  "tipo": "documento"
  },
  {
   "titulo": "Genera Impacto con Geo Apps Modernas",
   "institucion": "Esri",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Desarrollo Web, UX y Programación"
   ],
   "archivo": "genera-impacto-con-geo-apps-modernas-esri.pdf",
   "tipo": "curso"
@@ -416,7 +859,9 @@
   "institucion": "Esri",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "GeoAI y Programación Geoespacial",
+   "Ciencia de Datos e IA"
   ],
   "archivo": "geoai-inteligencia-artificial-aplicada-a-los-sig-esri.pdf",
   "tipo": "curso"
@@ -426,7 +871,8 @@
   "institucion": "Esri",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Ciencia de Datos e IA"
   ],
   "archivo": "geoanalitica-transforma-datos-en-decisiones-esri.pdf",
   "tipo": "curso"
@@ -436,9 +882,20 @@
   "institucion": "OBA",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Gestión del Riesgo de Desastres"
   ],
   "archivo": "geoinformacion-basica-de-la-emergencia-oba.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Geología General",
+  "institucion": "Mine-Class",
+  "horas": null,
+  "areas": [
+   "Minería y Geología"
+  ],
+  "archivo": "mine-class-geologia-general.pdf",
   "tipo": "curso"
  },
  {
@@ -446,7 +903,8 @@
   "institucion": "Intergeographic",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Gestión del Riesgo de Desastres"
   ],
   "archivo": "geomatica-aplicada-al-riesgo-de-desastres-intergeographic.pdf",
   "tipo": "curso"
@@ -456,9 +914,20 @@
   "institucion": "Imagine-IT",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Topografía, Geodesia e Instrumental"
   ],
   "archivo": "geomatica-de-mochila-imagine-it.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Geotaller de Caracterización Geológica–Geotécnica en Proyectos de Infraestructura",
+  "institucion": "CAEG",
+  "horas": null,
+  "areas": [
+   "Minería y Geología"
+  ],
+  "archivo": "geotaller-de-caracterizacion-geologica-geotecnica-en-proyectos-de-infraestructura-caeg.pdf",
   "tipo": "curso"
  },
  {
@@ -466,9 +935,42 @@
   "institucion": "IGAC / ICDE Colombia",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Territorio, Agro y Gestión Pública"
   ],
   "archivo": "gestion-de-la-informacion-geografica-para-la-administracion-del-territorio-igac-icde-colom.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Gestión de Proyectos Mineros",
+  "institucion": "Mine-Class",
+  "horas": null,
+  "areas": [
+   "Minería y Geología",
+   "Negocios, Emprendimiento y Marca Personal"
+  ],
+  "archivo": "mine-class-gestion-de-proyectos-mineros.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Gestión del Riesgo de Desastres en Organizaciones",
+  "institucion": "Universidad de Santiago de Chile",
+  "horas": null,
+  "areas": [
+   "Gestión del Riesgo de Desastres",
+   "Negocios, Emprendimiento y Marca Personal"
+  ],
+  "archivo": "gestion-del-riesgo-de-desastres-en-organizaciones-universidad-de-santiago-de-chile.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Gestión Pública y Ordenamiento Territorial",
+  "institucion": "INAGEP",
+  "horas": null,
+  "areas": [
+   "Territorio, Agro y Gestión Pública"
+  ],
+  "archivo": "gestion-publica-y-ordenamiento-territorial-inagep.pdf",
   "tipo": "curso"
  },
  {
@@ -482,11 +984,23 @@
   "tipo": "curso"
  },
  {
+  "titulo": "Habilitación de Vuelo Nocturno con Drones",
+  "institucion": "Corvus Group",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas"
+  ],
+  "archivo": "habilitacion-de-vuelo-nocturno-con-drones-corvus-group.pdf",
+  "tipo": "curso"
+ },
+ {
   "titulo": "Herramientas de Cambio del Nivel del Mar para Planificación y Decisión",
   "institucion": "NASA ARSET",
   "horas": null,
   "areas": [
-   "Teledetección y Observación de la Tierra"
+   "Teledetección y Observación de la Tierra",
+   "Recursos Hídricos y Modelamiento",
+   "Medio Ambiente, Cambio Climático y SEIA"
   ],
   "archivo": "herramientas-de-cambio-del-nivel-del-mar-para-planificacion-y-decision-nasa-arset.pdf",
   "tipo": "curso"
@@ -499,6 +1013,16 @@
    "Geomática y SIG"
   ],
   "archivo": "herramientas-de-cartografia-colaborativas-para-captura-de-datos-en-terreno-con-dispositivo.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Herramientas de IA para la Docencia y Gestión del Aula",
+  "institucion": "Universidad de Chile / CIAE",
+  "horas": 8,
+  "areas": [
+   "Educación y Docencia"
+  ],
+  "archivo": "herramientas-de-ia-para-la-docencia-y-gestion-del-aula-universidad-de-chile.pdf",
   "tipo": "curso"
  },
  {
@@ -516,7 +1040,9 @@
   "institucion": "Esri",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "GeoAI y Programación Geoespacial",
+   "Ciencia de Datos e IA"
   ],
   "archivo": "inicie-su-viaje-en-la-analitica-espacial-y-ciencia-de-datos-espaciales-esri.pdf",
   "tipo": "curso"
@@ -529,6 +1055,58 @@
    "Geomática y SIG"
   ],
   "archivo": "inicie-su-viaje-en-los-sistemas-de-informacion-geografica-esri.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Inmersión: Inteligencia Artificial en la Práctica",
+  "institucion": "Daxus",
+  "horas": null,
+  "areas": [
+   "Ciencia de Datos e IA"
+  ],
+  "archivo": "inmersion-inteligencia-artificial-en-la-practica-daxus.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Introducción a Big Data",
+  "institucion": "Fundación Telefónica",
+  "horas": 20,
+  "areas": [
+   "Ciencia de Datos e IA"
+  ],
+  "archivo": "introduccion-a-big-data-telefonica-nc.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Introducción a Internet de las Cosas",
+  "institucion": "Fundación Telefónica",
+  "horas": 20,
+  "areas": [
+   "Ciencia de Datos e IA"
+  ],
+  "archivo": "introduccion-a-internet-de-las-cosas-telefonica-nc.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Introducción a la Evaluación del Componente Hídrico en el SEIA",
+  "institucion": "Servicio de Evaluación Ambiental",
+  "horas": null,
+  "areas": [
+   "Recursos Hídricos y Modelamiento",
+   "Medio Ambiente, Cambio Climático y SEIA"
+  ],
+  "archivo": "introduccion-a-la-evaluacion-del-componente-hidrico-seia.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Introducción a la Geointeligencia Computacional",
+  "institucion": "CentroGeo",
+  "horas": null,
+  "areas": [
+   "GeoAI y Programación Geoespacial",
+   "Ciencia de Datos e IA"
+  ],
+  "archivo": "introduccion-a-la-geointeligencia-computacional-centrogeo.pdf",
   "tipo": "curso"
  },
  {
@@ -556,9 +1134,75 @@
   "institucion": "UNU-INWEH",
   "horas": null,
   "areas": [
-   "Teledetección y Observación de la Tierra"
+   "Teledetección y Observación de la Tierra",
+   "GeoAI y Programación Geoespacial",
+   "Ciencia de Datos e IA"
   ],
-  "archivo": "introduccion-al-analisis-de-datos-geoespaciales-con-chatgpt-y-google-earth-engine-version.pdf",
+  "archivo": "introduccion-al-analisis-de-datos-geoespaciales-con-chatgpt-y-google-earth-engine.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Introducción al Geopatrimonio",
+  "institucion": "Universidad Andrés Bello",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA",
+   "Territorio, Agro y Gestión Pública"
+  ],
+  "archivo": "introduccion-al-geopatrimonio-universidad-andres-bello.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Introducción para Usuarios GS05",
+  "institucion": "Leica Geosystems",
+  "horas": null,
+  "areas": [
+   "Topografía, Geodesia e Instrumental"
+  ],
+  "archivo": "introduccion-para-usuarios-gs05-leica-geosystems.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Introducción y Uso del GS18 T",
+  "institucion": "Leica Geosystems",
+  "horas": null,
+  "areas": [
+   "Topografía, Geodesia e Instrumental"
+  ],
+  "archivo": "introduccion-y-uso-del-gs18-t-leica-geosystems.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Itinerario Experto",
+  "institucion": "Fundación Telefónica",
+  "horas": 240,
+  "areas": [
+   "Ciencia de Datos e IA",
+   "Habilidades Transversales y Desarrollo Profesional"
+  ],
+  "archivo": "itinerario-experto-telefonica-nt.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Itinerario Posicionamiento en el Ecosistema Digital",
+  "institucion": "Fundación Telefónica",
+  "horas": 170,
+  "areas": [
+   "Negocios, Emprendimiento y Marca Personal",
+   "Habilidades Transversales y Desarrollo Profesional"
+  ],
+  "archivo": "itinerario-posicionamiento-en-el-ecosistema-digital-fundacion-telefonica.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Itinerario Tecnología",
+  "institucion": "Fundación Telefónica",
+  "horas": 170,
+  "areas": [
+   "Ciencia de Datos e IA",
+   "Habilidades Transversales y Desarrollo Profesional"
+  ],
+  "archivo": "itinerario-tecnologia-nt.pdf",
   "tipo": "curso"
  },
  {
@@ -566,9 +1210,72 @@
   "institucion": "LinkedIn Learning",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "GeoAI y Programación Geoespacial",
+   "Ciencia de Datos e IA"
   ],
   "archivo": "machine-learning-espacial-y-estadistica-en-python-linkedin-learning.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Megaterremotos en Chile: Mitos y Verdades",
+  "institucion": "Intergeographic",
+  "horas": null,
+  "areas": [
+   "Gestión del Riesgo de Desastres"
+  ],
+  "archivo": "megaterremotos-en-chile-mitos-y-verdades-intergeographic.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Metodología BIM",
+  "institucion": "Fundación Telefónica",
+  "horas": 30,
+  "areas": [
+   "Topografía, Geodesia e Instrumental",
+   "BIM y Diseño de Infraestructura (AEC)"
+  ],
+  "archivo": "metodologia-bim-telefonica-nc.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Minería Cielo Abierto",
+  "institucion": "Mine-Class",
+  "horas": null,
+  "areas": [
+   "Minería y Geología"
+  ],
+  "archivo": "mine-class-mineria-cielo-abierto.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Minería para no mineros",
+  "institucion": "Mine-Class",
+  "horas": null,
+  "areas": [
+   "Minería y Geología"
+  ],
+  "archivo": "mine-class-mineria-para-no-mineros.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Modelamiento Hidráulico con HEC-RAS",
+  "institucion": "USACE",
+  "horas": null,
+  "areas": [
+   "Recursos Hídricos y Modelamiento"
+  ],
+  "archivo": "modelamiento-hidraulico-con-hec-ras-usace.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Modelamiento Hidrológico con HEC-HMS",
+  "institucion": "USACE",
+  "horas": null,
+  "areas": [
+   "Recursos Hídricos y Modelamiento"
+  ],
+  "archivo": "modelamiento-hidrologico-con-hec-hms-usace.pdf",
   "tipo": "curso"
  },
  {
@@ -576,9 +1283,50 @@
   "institucion": "NASA ARSET",
   "horas": null,
   "areas": [
-   "Teledetección y Observación de la Tierra"
+   "Teledetección y Observación de la Tierra",
+   "Recursos Hídricos y Modelamiento"
   ],
   "archivo": "monitoreo-global-de-la-altura-de-aguas-superficiales-con-teledeteccion-nasa-arset.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "MOOC de Astronomía Básica",
+  "institucion": "Universidad de La Frontera (UFRO)",
+  "horas": null,
+  "areas": [
+   "Teledetección y Observación de la Tierra"
+  ],
+  "archivo": "mooc-de-astronomia-basica-ufro.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Operaciones sobre Personas (Operations Over People)",
+  "institucion": "Wingtra Academy",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas"
+  ],
+  "archivo": "curso-operador-operaciones-sobre-personas-wingtra-academy.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Operador de Drones",
+  "institucion": "HDrones / Academia de Drones de Chile",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas"
+  ],
+  "archivo": "operador-de-drones-hdrones.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Operador RPAS Dron",
+  "institucion": "Corvus Group",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas"
+  ],
+  "archivo": "operador-rpas-dron-corvus-group.pdf",
   "tipo": "curso"
  },
  {
@@ -596,9 +1344,21 @@
   "institucion": "NASA ARSET",
   "horas": null,
   "areas": [
-   "Teledetección y Observación de la Tierra"
+   "Teledetección y Observación de la Tierra",
+   "Medio Ambiente, Cambio Climático y SEIA"
   ],
   "archivo": "perfilamiento-lidar-de-observaciones-satelitales-para-calidad-del-aire-nasa-arset.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Planificación Estratégica del Negocio Minero",
+  "institucion": "Mine-Class",
+  "horas": null,
+  "areas": [
+   "Minería y Geología",
+   "Negocios, Emprendimiento y Marca Personal"
+  ],
+  "archivo": "mine-class-planificacion-estrategica-del-negocio-minero.pdf",
   "tipo": "curso"
  },
  {
@@ -606,9 +1366,30 @@
   "institucion": "FAO",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Territorio, Agro y Gestión Pública"
   ],
   "archivo": "planificacion-geoespacial-en-proyectos-de-desarrollo-territorial-fao.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Planificación Minera Subterránea",
+  "institucion": "Mine-Class",
+  "horas": null,
+  "areas": [
+   "Minería y Geología"
+  ],
+  "archivo": "mine-class-planificacion-minera-subterranea.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Prevención de Quemaduras Infantojuveniles",
+  "institucion": "INJUV",
+  "horas": null,
+  "areas": [
+   "Gestión del Riesgo de Desastres"
+  ],
+  "archivo": "prevencion-de-quemaduras-infantojuveniles-injuv.pdf",
   "tipo": "curso"
  },
  {
@@ -616,9 +1397,112 @@
   "institucion": "Telemática Perú",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Educación y Docencia"
   ],
   "archivo": "programa-de-actualizacion-gis-para-docentes-universitarios-telematica-peru.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Programa Especializado: Análisis de Riesgos de Desastres y Cambio Climático",
+  "institucion": "BID / Coursera",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA",
+   "Gestión del Riesgo de Desastres"
+  ],
+  "archivo": "especializacion-analisis-de-riesgos-de-desastres-y-cambio-climatico-bid-coursera.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Programa Especializado: Educación sobre el Cambio Climático",
+  "institucion": "BID / Coursera",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA",
+   "Educación y Docencia"
+  ],
+  "archivo": "especializacion-educacion-sobre-el-cambio-climatico-bid-coursera.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Proyecto Minero Subterráneo",
+  "institucion": "Mine-Class",
+  "horas": null,
+  "areas": [
+   "Minería y Geología"
+  ],
+  "archivo": "mine-class-proyecto-minero-subterraneo.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Psicoeducación e Intervenciones con Personas Afectadas por un Evento Crítico",
+  "institucion": "INJUV",
+  "horas": null,
+  "areas": [
+   "Gestión del Riesgo de Desastres"
+  ],
+  "archivo": "psicoeducacion-y-aspectos-centrales-de-las-intervenciones-con-personas-afectadas-por-un-ev.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Primer lugar – Curso de Instructor Técnico (nota 6,97)",
+  "institucion": "Escuela técnica – Institución pública de Chile",
+  "horas": null,
+  "areas": [
+   "Reconocimientos y Concursos"
+  ],
+  "archivo": "reconocimiento-primer-lugar-instructor-tecnico-2026.pdf",
+  "tipo": "documento"
+ },
+ {
+  "titulo": "Residuos y efluentes en el marco del SEIA",
+  "institucion": "Servicio de Evaluación Ambiental",
+  "horas": null,
+  "areas": [
+   "Medio Ambiente, Cambio Climático y SEIA"
+  ],
+  "archivo": "residuos-y-efluentes-en-el-marco-del-seia-servicio-de-evaluacion-ambiental.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Revit Essentials: Iniciación a la Arquitectura Digital",
+  "institucion": "ATC",
+  "horas": null,
+  "areas": [
+   "BIM y Diseño de Infraestructura (AEC)"
+  ],
+  "archivo": "revit-essentials-iniciacion-a-la-arquitectura-digital-atc.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Revit Essentials: Iniciación a la Arquitectura Digital",
+  "institucion": "IBIM",
+  "horas": null,
+  "areas": [
+   "BIM y Diseño de Infraestructura (AEC)"
+  ],
+  "archivo": "revit-essentials-iniciacion-a-la-arquitectura-digital-ibim.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Riesgos de Desastres en Proyectos de Infraestructura",
+  "institucion": "BID / Coursera",
+  "horas": null,
+  "areas": [
+   "Gestión del Riesgo de Desastres"
+  ],
+  "archivo": "riesgos-de-desastres-en-proyectos-de-infraestructura-bid-coursera.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Semana de Python en la Práctica",
+  "institucion": "Daxus",
+  "horas": null,
+  "areas": [
+   "Ciencia de Datos e IA"
+  ],
+  "archivo": "semana-de-python-en-la-practica-daxus.pdf",
   "tipo": "curso"
  },
  {
@@ -626,9 +1510,20 @@
   "institucion": "Esri",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Medio Ambiente, Cambio Climático y SEIA"
   ],
   "archivo": "sig-para-la-accion-climatica-esri.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Summit MICROGEO 2026 – Digitalizando el Futuro (Autodesk Forma / Build Cloud)",
+  "institucion": "MICROGEO S.A. – Centro de Formación Autorizado de Autodesk",
+  "horas": null,
+  "areas": [
+   "BIM y Diseño de Infraestructura (AEC)"
+  ],
+  "archivo": "digitalizando-el-futuro-summit-microgeo-2026.pdf",
   "tipo": "curso"
  },
  {
@@ -639,6 +1534,27 @@
    "Geomática y SIG"
   ],
   "archivo": "supermap-idesktop-10i-para-trabajo-sig-inteligente-udemy.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Taller Implementación Sistema de Gestión de la Seguridad Operacional (SMS) Etapa II",
+  "institucion": "Dirección General de Aeronáutica Civil (DGAC)",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas"
+  ],
+  "archivo": "taller-implementacion-sistema-de-gestion-de-la-seguridad-operacional-sms-etapa-ii-direccio.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Técnicas y Recomendaciones para cultivos de bajo consumo hídrico",
+  "institucion": "INJUV",
+  "horas": null,
+  "areas": [
+   "Recursos Hídricos y Modelamiento",
+   "Medio Ambiente, Cambio Climático y SEIA"
+  ],
+  "archivo": "tecnicas-y-recomendaciones-para-cultivos-de-bajo-consumo-hidrico-injuv.pdf",
   "tipo": "curso"
  },
  {
@@ -683,6 +1599,26 @@
   "tipo": "curso"
  },
  {
+  "titulo": "Todo sobre la Subdivisión de Predios Rústicos (SPR)",
+  "institucion": "Servicio Agrícola y Ganadero",
+  "horas": null,
+  "areas": [
+   "Territorio, Agro y Gestión Pública"
+  ],
+  "archivo": "todo-sobre-la-subdivision-de-predios-rusticos-spr-servicio-agricola-y-ganadero.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Toma de Decisiones y Gobernanza del Riesgo de Desastres",
+  "institucion": "BID / Coursera",
+  "horas": null,
+  "areas": [
+   "Gestión del Riesgo de Desastres"
+  ],
+  "archivo": "toma-de-decisiones-y-gobernanza-del-riesgo-de-desastres-bid-coursera.pdf",
+  "tipo": "curso"
+ },
+ {
   "titulo": "Trabajando con datos LiDAR en ArcGIS",
   "institucion": "Esri",
   "horas": null,
@@ -698,9 +1634,21 @@
   "institucion": "Esri",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "BIM y Diseño de Infraestructura (AEC)"
   ],
   "archivo": "transforma-proyectos-aec-con-sig-y-bim-esri.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Uso de Drones Aplicado a Minería y Geotecnia",
+  "institucion": "Centry",
+  "horas": null,
+  "areas": [
+   "RPAS y Operaciones Aéreas",
+   "Minería y Geología"
+  ],
+  "archivo": "uso-de-drones-aplicado-a-mineria-y-geotecnia-centry.pdf",
   "tipo": "curso"
  },
  {
@@ -708,9 +1656,20 @@
   "institucion": "CIREN / INFOR",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Territorio, Agro y Gestión Pública"
   ],
   "archivo": "uso-de-la-plataforma-simef-ciren-infor.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Uso de PowerSearch TS16/MS60",
+  "institucion": "Leica Geosystems",
+  "horas": null,
+  "areas": [
+   "Topografía, Geodesia e Instrumental"
+  ],
+  "archivo": "uso-de-powersearch-ts16-ms60-leica-geosystems.pdf",
   "tipo": "curso"
  },
  {
@@ -718,9 +1677,32 @@
   "institucion": "LinkedIn Learning",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "GeoAI y Programación Geoespacial",
+   "Ciencia de Datos e IA"
   ],
   "archivo": "visualizacion-avanzada-de-datos-espaciales-en-python-linkedin-learning.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "Voluntariado en contexto de Emergencia",
+  "institucion": "INJUV",
+  "horas": null,
+  "areas": [
+   "Gestión del Riesgo de Desastres"
+  ],
+  "archivo": "voluntariado-en-contexto-de-emergencia-injuv.pdf",
+  "tipo": "curso"
+ },
+ {
+  "titulo": "White Belt Lean Six Sigma",
+  "institucion": "Continuum",
+  "horas": null,
+  "areas": [
+   "Negocios, Emprendimiento y Marca Personal",
+   "Habilidades Transversales y Desarrollo Profesional"
+  ],
+  "archivo": "white-belt-lean-six-sigma-continuum.pdf",
   "tipo": "curso"
  },
  {
@@ -728,7 +1710,8 @@
   "institucion": "CIREN",
   "horas": null,
   "areas": [
-   "Geomática y SIG"
+   "Geomática y SIG",
+   "Territorio, Agro y Gestión Pública"
   ],
   "archivo": "como-usar-sit-rural-ciren.pdf",
   "tipo": "curso"
@@ -738,7 +1721,8 @@
   "institucion": "Dirección General de Aeronáutica Civil (DGAC)",
   "horas": null,
   "areas": [
-   "Títulos y Diplomados"
+   "Títulos y Diplomados",
+   "RPAS y Operaciones Aéreas"
   ],
   "archivo": "credencial-operador-rpas-n16114-vigencia-2027-dgac.pdf",
   "tipo": "documento"
