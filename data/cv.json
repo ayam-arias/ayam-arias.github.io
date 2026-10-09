@@ -194,9 +194,9 @@
       },
       {
         "titulo": "Técnico de Nivel Superior en Aerofotogrametría",
-        "institucion": "Escuela técnica – Institución pública de Chile",
-        "detalle": "2015",
-        "logo": "https://admisionfach2026.cl/assets/img/oficial/logo-escuela-especialidades.png"
+        "institucion": "Escuela de Especialidades «Sgto. 1° Adolfo Menadier Rojas» – FACh",
+        "detalle": "2015 · Título técnico de nivel superior reconocido por el Mineduc",
+        "logo": "assets/logos/eesp-fach.png"
       }
     ],
     "licencias": [
@@ -337,7 +337,7 @@
     },
     {
       "titulo": "Primer lugar – Curso de Instructor Técnico",
-      "detalle": "160 h (2026)",
+      "detalle": "Escuela de Perfeccionamiento de Suboficiales – FACh · 160 h (2026)",
       "logo": "assets/logos/eps-fach.png"
     },
     {
@@ -496,8 +496,8 @@
     "UNSAAC": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo%20UNSAAC.png?width=240",
     "Mine-Class": "https://mine-class.com/__l5e/assets-v1/4f97a6a5-84e3-4838-8d6e-bbdc891b7cd0/logo_m.png",
     "Cetye": "https://www.cetye.cl/assets/logo.png",
-    "Escuela técnica": "https://admisionfach2026.cl/assets/img/oficial/logo-escuela-especialidades.png",
     "Quality & Improvement": "assets/logos/quality-improvement.png",
-    "Escuela de perfeccionamiento": "assets/logos/eps-fach.png"
+    "Escuela de Especialidades": "assets/logos/eesp-fach.png",
+    "Escuela de Perfeccionamiento": "assets/logos/eps-fach.png"
   }
 }
