@@ -9,7 +9,13 @@
     "linkedin": "https://www.linkedin.com/in/ian-arias",
     "github": "https://github.com/ayam-arias",
     "sitio": "https://ayam-arias.github.io",
-    "whatsapp": ["56", "9346", "49804"]
+    "whatsapp": [
+      "56",
+      "9346",
+      "49804"
+    ],
+    "instagram": "https://www.instagram.com/_geoia.n",
+    "instagram_usuario": "@_geoia.n"
   },
   "cifras": {
     "anios_experiencia": "12+",
@@ -163,54 +169,277 @@
   ],
   "formacion": {
     "en_curso": [
-      { "titulo": "Magíster en Estadística Aplicada y Ciencia de Datos", "institucion": "Universidad Bernardo O'Higgins", "detalle": "En curso · egreso 2028 · alumno regular 2026", "logo": "assets/logos/ubo.png" },
-      { "titulo": "Magíster en Educación, mención Currículum y Evaluación Basado en Competencias", "institucion": "Universidad Miguel de Cervantes", "detalle": "En curso · egreso 2027", "logo": "assets/logos/umc.png" }
+      {
+        "titulo": "Magíster en Estadística Aplicada y Ciencia de Datos",
+        "institucion": "Universidad Bernardo O'Higgins",
+        "detalle": "En curso · egreso 2028 · alumno regular 2026",
+        "logo": "assets/logos/ubo.png"
+      },
+      {
+        "titulo": "Magíster en Educación, mención Currículum y Evaluación Basado en Competencias",
+        "institucion": "Universidad Miguel de Cervantes",
+        "detalle": "En curso · egreso 2027",
+        "logo": "assets/logos/umc.png"
+      }
     ],
     "titulos": [
-      { "titulo": "Ingeniería en Geomensura y Cartografía", "institucion": "Universidad Bernardo O'Higgins", "detalle": "2025 · Aprobado con distinción · Título con certificación blockchain", "logo": "assets/logos/ubo.png" },
-      { "titulo": "Técnico de Nivel Superior en Geomensura y Cartografía", "institucion": "Universidad Bernardo O'Higgins", "detalle": "2022 · Aprobado con distinción", "logo": "assets/logos/ubo.png" },
-      { "titulo": "Técnico de Nivel Superior en Aerofotogrametría", "institucion": "Escuela técnica – Institución pública de Chile", "detalle": "2015", "logo": "" }
+      {
+        "titulo": "Ingeniería en Geomensura y Cartografía",
+        "institucion": "Universidad Bernardo O'Higgins",
+        "detalle": "2025 · Aprobado con distinción · Título con certificación blockchain",
+        "logo": "assets/logos/ubo.png"
+      },
+      {
+        "titulo": "Técnico de Nivel Superior en Geomensura y Cartografía",
+        "institucion": "Universidad Bernardo O'Higgins",
+        "detalle": "2022 · Aprobado con distinción",
+        "logo": "assets/logos/ubo.png"
+      },
+      {
+        "titulo": "Técnico de Nivel Superior en Aerofotogrametría",
+        "institucion": "Escuela técnica – Institución pública de Chile",
+        "detalle": "2015",
+        "logo": ""
+      }
     ],
     "licencias": [
-      { "titulo": "Credencial de Operador RPAS N° 16114", "institucion": "Dirección General de Aeronáutica Civil (DGAC)", "detalle": "2024 · vigente hasta 2027 · habilitaciones de vuelo nocturno y operaciones sobre personas" }
+      {
+        "titulo": "Credencial de Operador RPAS N° 16114",
+        "institucion": "Dirección General de Aeronáutica Civil (DGAC)",
+        "detalle": "2024 · vigente hasta 2027 · habilitaciones de vuelo nocturno y operaciones sobre personas"
+      }
     ],
     "diplomados": [
-      { "titulo": "Diplomado en Innovación Estratégica con Uso de Inteligencia Artificial", "institucion": "Universidad de los Andes", "horas": null, "anio": "En curso (dic. 2026)" },
-      { "titulo": "Diplomado en Docencia en la Educación Superior Técnica", "institucion": "Instituto Profesional AIEP", "horas": 92, "anio": "2026" },
-      { "titulo": "Diplomado en Ciencia de Datos aplicada en Machine Learning", "institucion": "E-learnica", "horas": 80, "anio": "2026" },
-      { "titulo": "Diplomado en SIG y Teledetección Aplicados a la Gestión de los Recursos Naturales y la Minería", "institucion": "Universidad Andrés Bello", "horas": 180, "anio": "2025" },
-      { "titulo": "Diplomado en Inteligencia en Clientes y Big Data", "institucion": "Universidad de Chile", "horas": 120, "anio": "2025" },
-      { "titulo": "Diplomado en Inclusión y Diversidad: Estrategias de Gestión para una Educación Transformadora", "institucion": "Universidad de Playa Ancha", "horas": 90, "anio": "2025" },
-      { "titulo": "Diplomado en Inclusión Educativa: Normativas y Estrategias Metodológicas para el Trabajo en el Aula", "institucion": "Universidad de Playa Ancha", "horas": 90, "anio": "2025" },
-      { "titulo": "Diplomado en Habilidades para el Desarrollo Profesional", "institucion": "Universidad de Playa Ancha", "horas": 90, "anio": "2025" },
-      { "titulo": "Diplomado en Diseño Web y Experiencia de Usuario UX/UI", "institucion": "Instituto Profesional AIEP", "horas": 90, "anio": "2025" },
-      { "titulo": "Diplomado en Emprendimiento y Gestión Digital", "institucion": "Instituto Profesional AIEP", "horas": 90, "anio": "2025" },
-      { "titulo": "Diplomado en Crecimiento Digital de Negocios y Marca Personal", "institucion": "Universidad de Playa Ancha", "horas": 100, "anio": "2024" },
-      { "titulo": "Diplomado en Fundamentos de la Programación y Desarrollo Web", "institucion": "Universidad de Playa Ancha", "horas": 110, "anio": "2024" },
-      { "titulo": "Diplomado en Diseño y Gestión Ágil de Proyectos", "institucion": "Universidad de Playa Ancha", "horas": 100, "anio": "2024" },
-      { "titulo": "Diplomado en Emprendimiento Estratégico", "institucion": "Instituto Profesional de Chile", "horas": 110, "anio": "2024" },
-      { "titulo": "Diplomado en Promoción de una Convivencia Libre de Violencia", "institucion": "Servicio Nacional del Patrimonio Cultural / BiblioRedes", "horas": 100, "anio": "2022" },
-      { "titulo": "Diplomado en Comunicación en la Era Digital", "institucion": "Instituto Profesional AIEP", "horas": 100, "anio": "2022" },
-      { "titulo": "Diplomado en Diseño y Programación Web", "institucion": "Instituto Profesional AIEP", "horas": 100, "anio": "2022" },
-      { "titulo": "Diplomado en Emprendimiento Social y Marketing Personal", "institucion": "Instituto Profesional AIEP", "horas": 110, "anio": "2022" },
-      { "titulo": "Diplomado en Marketing Digital y Gestión Estratégica", "institucion": "Instituto Profesional AIEP", "horas": 90, "anio": "2022" }
+      {
+        "titulo": "Diplomado en Innovación Estratégica con Uso de Inteligencia Artificial",
+        "institucion": "Universidad de los Andes",
+        "horas": null,
+        "anio": "En curso (dic. 2026)"
+      },
+      {
+        "titulo": "Diplomado en Docencia en la Educación Superior Técnica",
+        "institucion": "Instituto Profesional AIEP",
+        "horas": 92,
+        "anio": "2026"
+      },
+      {
+        "titulo": "Diplomado en Ciencia de Datos aplicada en Machine Learning",
+        "institucion": "E-learnica",
+        "horas": 80,
+        "anio": "2026"
+      },
+      {
+        "titulo": "Diplomado en SIG y Teledetección Aplicados a la Gestión de los Recursos Naturales y la Minería",
+        "institucion": "Universidad Andrés Bello",
+        "horas": 180,
+        "anio": "2025"
+      },
+      {
+        "titulo": "Diplomado en Inteligencia en Clientes y Big Data",
+        "institucion": "Universidad de Chile",
+        "horas": 120,
+        "anio": "2025"
+      },
+      {
+        "titulo": "Diplomado en Inclusión y Diversidad: Estrategias de Gestión para una Educación Transformadora",
+        "institucion": "Universidad de Playa Ancha",
+        "horas": 90,
+        "anio": "2025"
+      },
+      {
+        "titulo": "Diplomado en Inclusión Educativa: Normativas y Estrategias Metodológicas para el Trabajo en el Aula",
+        "institucion": "Universidad de Playa Ancha",
+        "horas": 90,
+        "anio": "2025"
+      },
+      {
+        "titulo": "Diplomado en Habilidades para el Desarrollo Profesional",
+        "institucion": "Universidad de Playa Ancha",
+        "horas": 90,
+        "anio": "2025"
+      },
+      {
+        "titulo": "Diplomado en Diseño Web y Experiencia de Usuario UX/UI",
+        "institucion": "Instituto Profesional AIEP",
+        "horas": 90,
+        "anio": "2025"
+      },
+      {
+        "titulo": "Diplomado en Emprendimiento y Gestión Digital",
+        "institucion": "Instituto Profesional AIEP",
+        "horas": 90,
+        "anio": "2025"
+      },
+      {
+        "titulo": "Diplomado en Crecimiento Digital de Negocios y Marca Personal",
+        "institucion": "Universidad de Playa Ancha",
+        "horas": 100,
+        "anio": "2024"
+      },
+      {
+        "titulo": "Diplomado en Fundamentos de la Programación y Desarrollo Web",
+        "institucion": "Universidad de Playa Ancha",
+        "horas": 110,
+        "anio": "2024"
+      },
+      {
+        "titulo": "Diplomado en Diseño y Gestión Ágil de Proyectos",
+        "institucion": "Universidad de Playa Ancha",
+        "horas": 100,
+        "anio": "2024"
+      },
+      {
+        "titulo": "Diplomado en Emprendimiento Estratégico",
+        "institucion": "Instituto Profesional de Chile",
+        "horas": 110,
+        "anio": "2024"
+      },
+      {
+        "titulo": "Diplomado en Promoción de una Convivencia Libre de Violencia",
+        "institucion": "Servicio Nacional del Patrimonio Cultural / BiblioRedes",
+        "horas": 100,
+        "anio": "2022"
+      },
+      {
+        "titulo": "Diplomado en Comunicación en la Era Digital",
+        "institucion": "Instituto Profesional AIEP",
+        "horas": 100,
+        "anio": "2022"
+      },
+      {
+        "titulo": "Diplomado en Diseño y Programación Web",
+        "institucion": "Instituto Profesional AIEP",
+        "horas": 100,
+        "anio": "2022"
+      },
+      {
+        "titulo": "Diplomado en Emprendimiento Social y Marketing Personal",
+        "institucion": "Instituto Profesional AIEP",
+        "horas": 110,
+        "anio": "2022"
+      },
+      {
+        "titulo": "Diplomado en Marketing Digital y Gestión Estratégica",
+        "institucion": "Instituto Profesional AIEP",
+        "horas": 90,
+        "anio": "2022"
+      }
     ]
   },
   "reconocimientos": [
-    { "titulo": "Ganador – Concurso de Innovación Docente AIEP 2026", "detalle": "Proyecto «Aula Aerotransportada», Instituto Profesional AIEP (2026)" },
-    { "titulo": "Primer lugar – Curso de Instructor Técnico", "detalle": "160 h · nota 6,97 (2026)" },
-    { "titulo": "Becario – Teaching with Purpose", "detalle": "Santander Open Academy en colaboración con Harvard Business Impact (2026)" },
-    { "titulo": "Semifinalista – Desafío Calor Extremo", "detalle": "Gobierno Regional Metropolitano de Santiago (2024)" }
+    {
+      "titulo": "Ganador – Concurso de Innovación Docente AIEP 2026",
+      "detalle": "Proyecto «Aula Aerotransportada», Instituto Profesional AIEP (2026)"
+    },
+    {
+      "titulo": "Primer lugar – Curso de Instructor Técnico",
+      "detalle": "160 h · nota 6,97 (2026)"
+    },
+    {
+      "titulo": "Becario – Teaching with Purpose",
+      "detalle": "Santander Open Academy en colaboración con Harvard Business Impact (2026)"
+    },
+    {
+      "titulo": "Semifinalista – Desafío Calor Extremo",
+      "detalle": "Gobierno Regional Metropolitano de Santiago (2024)"
+    }
   ],
   "competencias": [
-    { "area": "LiDAR y nubes de puntos", "items": ["LiPowerline V8.0", "LiDAR360 (GreenValley)", "Inspección de corredores eléctricos", "Clasificación ASPRS", "LAS/LAZ", "MDT/MDS", "Distancias 3D conductor–vegetación", "CloudCompare", "ArcGIS Pro (LAS Dataset)"] },
-    { "area": "Fotogrametría", "items": ["Pix4D Mapper", "Agisoft Metashape", "Ortofotos", "Modelos digitales de elevación", "Cubicación volumétrica"] },
-    { "area": "RPAS y flujos UAV", "items": ["Credencial DGAC N° 16114", "Vuelo nocturno", "Operaciones sobre personas", "DJI Pilot / Pilot 2", "Mavic, Phantom, Matrice", "WingtraOne GEN II", "WingtraRAY", "Planificación de rutas y análisis de riesgo"] },
-    { "area": "SIG y teledetección", "items": ["ArcGIS Pro / Online / Enterprise", "QGIS", "Google Earth Engine", "Survey123", "Field Maps", "SuperMap iDesktop", "QA/QC ASPRS 2015"] },
-    { "area": "Geodesia y topografía", "items": ["GNSS RTK/PPK", "Leica TS16", "Leica MS60", "Leica GS18 T", "Leica GS05", "Control geodésico"] },
-    { "area": "Programación y datos", "items": ["Python", "ArcPy", "pandas", "GeoPandas", "laspy", "Power BI", "ETL", "Estadística aplicada"] },
-    { "area": "Hidrología e hidráulica", "items": ["HEC-RAS", "HEC-HMS"] },
-    { "area": "BIM y AEC", "items": ["Autodesk Revit", "Autodesk Forma / Build Cloud", "Integración SIG–BIM"] },
-    { "area": "Idiomas", "items": ["Español (nativo)", "Inglés técnico", "Portugués técnico (lectura)"] }
+    {
+      "area": "LiDAR y nubes de puntos",
+      "items": [
+        "LiPowerline V8.0",
+        "LiDAR360 (GreenValley)",
+        "Inspección de corredores eléctricos",
+        "Clasificación ASPRS",
+        "LAS/LAZ",
+        "MDT/MDS",
+        "Distancias 3D conductor–vegetación",
+        "CloudCompare",
+        "ArcGIS Pro (LAS Dataset)"
+      ]
+    },
+    {
+      "area": "Fotogrametría",
+      "items": [
+        "Pix4D Mapper",
+        "Agisoft Metashape",
+        "Ortofotos",
+        "Modelos digitales de elevación",
+        "Cubicación volumétrica"
+      ]
+    },
+    {
+      "area": "RPAS y flujos UAV",
+      "items": [
+        "Credencial DGAC N° 16114",
+        "Vuelo nocturno",
+        "Operaciones sobre personas",
+        "DJI Pilot / Pilot 2",
+        "Mavic, Phantom, Matrice",
+        "WingtraOne GEN II",
+        "WingtraRAY",
+        "Planificación de rutas y análisis de riesgo"
+      ]
+    },
+    {
+      "area": "SIG y teledetección",
+      "items": [
+        "ArcGIS Pro / Online / Enterprise",
+        "QGIS",
+        "Google Earth Engine",
+        "Survey123",
+        "Field Maps",
+        "SuperMap iDesktop",
+        "QA/QC ASPRS 2015"
+      ]
+    },
+    {
+      "area": "Geodesia y topografía",
+      "items": [
+        "GNSS RTK/PPK",
+        "Leica TS16",
+        "Leica MS60",
+        "Leica GS18 T",
+        "Leica GS05",
+        "Control geodésico"
+      ]
+    },
+    {
+      "area": "Programación y datos",
+      "items": [
+        "Python",
+        "ArcPy",
+        "pandas",
+        "GeoPandas",
+        "laspy",
+        "Power BI",
+        "ETL",
+        "Estadística aplicada"
+      ]
+    },
+    {
+      "area": "Hidrología e hidráulica",
+      "items": [
+        "HEC-RAS",
+        "HEC-HMS"
+      ]
+    },
+    {
+      "area": "BIM y AEC",
+      "items": [
+        "Autodesk Revit",
+        "Autodesk Forma / Build Cloud",
+        "Integración SIG–BIM"
+      ]
+    },
+    {
+      "area": "Idiomas",
+      "items": [
+        "Español (nativo)",
+        "Inglés técnico",
+        "Portugués técnico (lectura)"
+      ]
+    }
   ]
 }
