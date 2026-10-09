@@ -146,18 +146,22 @@
     },
     {
       "organizacion": "Quality & Improvement",
-      "logo": "",
+      "logo": "assets/logos/quality-improvement.png",
       "tipo": "docencia",
       "cargos": [
         {
           "cargo": "Relator – Curso ArcGIS Pro",
           "periodo": "Dic. 2023 – Mar. 2024",
           "logros": [
-            "Programa de 32 horas académicas en ArcGIS Pro para 24 funcionarios municipales, orientado al análisis espacial y la gestión territorial.",
+            "Programa de 32 horas académicas en ArcGIS Pro para 24 funcionarios de la Municipalidad de Maipú, orientado al análisis espacial y la gestión territorial.",
             "Introducción al ecosistema ArcGIS Online aplicado a la gestión territorial municipal."
           ]
         }
-      ]
+      ],
+      "cliente": {
+        "nombre": "Municipalidad de Maipú",
+        "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo%20de%20Maip%C3%BA%20%28Chile%29.svg?width=160"
+      }
     }
   ],
   "formacion": {
@@ -487,6 +491,7 @@
     "UNSAAC": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo%20UNSAAC.png?width=240",
     "Mine-Class": "https://mine-class.com/__l5e/assets-v1/4f97a6a5-84e3-4838-8d6e-bbdc891b7cd0/logo_m.png",
     "Cetye": "https://www.cetye.cl/assets/logo.png",
-    "Escuela técnica": "https://admisionfach2026.cl/assets/img/oficial/logo-escuela-especialidades.png"
+    "Escuela técnica": "https://admisionfach2026.cl/assets/img/oficial/logo-escuela-especialidades.png",
+    "Quality & Improvement": "assets/logos/quality-improvement.png"
   }
 }
