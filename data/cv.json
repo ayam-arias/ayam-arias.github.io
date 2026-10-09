@@ -203,13 +203,14 @@
       {
         "titulo": "Credencial de Operador RPAS N° 16114",
         "institucion": "Dirección General de Aeronáutica Civil (DGAC)",
-        "detalle": "2024 · vigente hasta 2027 · habilitaciones de vuelo nocturno y operaciones sobre personas",
+        "detalle": "Vigente hasta 2027 · Habilitaciones de Vuelo Nocturno (VNOC)",
         "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Direcci%C3%B3n%20General%20de%20Aeron%C3%A1utica%20Civil%20de%20Chile.svg?width=240"
       },
       {
         "titulo": "Licencia de conducir Clase B",
-        "institucion": "República de Chile",
-        "detalle": "Desde 2018 · vigente hasta 2032"
+        "institucion": "Ministerio de Transportes y Telecomunicaciones (MTT)",
+        "detalle": "Desde 2018 · vigente hasta 2032",
+        "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20de%20Ministerio%20de%20Transportes%20y%20Telecomunicaciones%20de%20Chile.svg?width=240"
       }
     ],
     "diplomados": [
