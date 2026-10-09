@@ -73,7 +73,9 @@ h3{font-size:1rem;margin:0}
 .card .d{font-size:.82rem;color:var(--muted);margin-top:2px}
 .sub{font-size:.95rem;color:var(--muted);margin:18px 0 8px;font-weight:600}
 .dip{list-style:none;padding:0;margin:0;background:var(--card);border:1px solid var(--line);border-radius:12px}
-.dip li{padding:10px 14px;border-bottom:1px solid var(--line);font-size:.92rem}
+.dip li{padding:10px 14px;border-bottom:1px solid var(--line);font-size:.92rem;display:flex;gap:12px;align-items:center}
+.dip li img{width:64px;height:40px;object-fit:contain;flex:none}
+.cert .logo{height:34px;max-width:110px;object-fit:contain;align-self:flex-start}
 .dip li:last-child{border-bottom:0}
 .dip small{display:block;color:var(--muted)}
 .search{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;font:inherit;background:#fff}
@@ -195,7 +197,8 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
 const PAGE=24;
-let CERTS=[],area='Todas',shown=PAGE;
+let CERTS=[],area='Todas',shown=PAGE,LOGOS={};
+const logoDe=inst=>{inst=String(inst||'');const k=Object.keys(LOGOS).sort((a,b)=>b.length-a.length).find(k=>inst.includes(k));return k?LOGOS[k]:'';};
 
 Promise.all([
   fetch('data/cv.json').then(r=>r.json()),
@@ -204,7 +207,7 @@ Promise.all([
  .catch(e=>{console.error(e);$('#perfil-txt').innerHTML='<p class="empty">No se pudo cargar el contenido.</p>';});
 
 function renderCV(cv){
-  const c=cv.contacto;
+  const c=cv.contacto;LOGOS=cv.logos_instituciones||{};
   $('#titular').textContent=cv.titular;$('#ubic').textContent=cv.ubicacion;$('#upd').textContent=cv.actualizado||'';
   $('#b-linkedin').href=c.linkedin;$('#b-mail').href='mailto:'+c.correo;
   const wa='https://wa.me/'+c.whatsapp.join('');$('#b-wa').href=wa;
@@ -214,10 +217,10 @@ function renderCV(cv){
   $('#f-titulos').innerHTML=cv.formacion.titulos.map(card).join('');
   $('#f-curso').innerHTML=cv.formacion.en_curso.map(card).join('');
   $('#f-lic').innerHTML=cv.formacion.licencias.map(card).join('');
-  $('#f-dip').innerHTML=cv.formacion.diplomados.map(d=>`<li>${esc(d.titulo)}<small>${esc(d.institucion)}${d.horas?' · '+d.horas+' h':''} · ${esc(d.anio)}</small></li>`).join('');
+  $('#f-dip').innerHTML=cv.formacion.diplomados.map(d=>{const l=logoDe(d.institucion);return `<li>${l?`<img src="${esc(l)}" alt="" loading="lazy">`:''}<div>${esc(d.titulo)}<small>${esc(d.institucion)}${d.horas?' · '+d.horas+' h':''} · ${esc(d.anio)}</small></div></li>`}).join('');
   $('#f-rec').innerHTML=cv.reconocimientos.map(r=>`<li>${esc(r.titulo)}<small>${esc(r.detalle)}</small></li>`).join('');
   $('#skills').innerHTML=cv.competencias.map(s=>`<div class="skill"><h3>${esc(s.area)}</h3><div class="pills">${s.items.map(i=>'<span class="pill">'+esc(i)+'</span>').join('')}</div></div>`).join('');
-  $('#contact-list').innerHTML=`<a class="btn" href="mailto:${esc(c.correo)}">${esc(c.correo)}</a><a class="btn" href="mailto:${esc(c.correo_docente)}">${esc(c.correo_docente)} (docente)</a><a class="btn" href="${wa}" target="_blank" rel="noopener">WhatsApp</a><a class="btn" href="${esc(c.linkedin)}" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="${esc(c.github)}" target="_blank" rel="noopener">GitHub</a>${c.instagram?`<a class="btn" href="${esc(c.instagram)}" target="_blank" rel="noopener">Instagram ${esc(c.instagram_usuario||"")}</a>`:""}`;
+  $('#contact-list').innerHTML=`<a class="btn" href="mailto:${esc(c.correo)}">${esc(c.correo)}</a><a class="btn" href="mailto:${esc(c.correo_docente)}">${esc(c.correo_docente)} (Santo Tomás)</a>${c.correo_aiep?`<a class="btn" href="mailto:${esc(c.correo_aiep)}">${esc(c.correo_aiep)} (AIEP)</a>`:''}<a class="btn" href="${wa}" target="_blank" rel="noopener">WhatsApp</a><a class="btn" href="${esc(c.linkedin)}" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="${esc(c.github)}" target="_blank" rel="noopener">GitHub</a>${c.instagram?`<a class="btn" href="${esc(c.instagram)}" target="_blank" rel="noopener">Instagram ${esc(c.instagram_usuario||"")}</a>`:""}`;
 }
 function renderStats(cv,certs){
   $('#s-anios').textContent=cv.cifras.anios_experiencia;
@@ -239,7 +242,7 @@ function renderCerts(){
   if(!CERTS.length){$('#certs').innerHTML='<div class="empty">Los certificados se están cargando en el sitio. Vuelve pronto.</div>';$('#count').textContent='';return;}
   const list=filtered();
   $('#count').textContent=list.length+(list.length===1?' resultado':' resultados');
-  $('#certs').innerHTML=list.slice(0,shown).map(c=>`<article class="card cert"><div class="top"><div><div class="t">${esc(c.titulo)}</div><div class="i">${esc(c.institucion)}${c.horas?' · '+esc(c.horas)+' h':''}</div></div><span class="tag">${esc(c.tipo)}</span></div><div class="areas">${(c.areas||[]).map(a=>'<span class="pill">'+esc(a)+'</span>').join('')}</div><a class="ver" href="certificados/${encodeURIComponent(c.archivo)}" target="_blank" rel="noopener">Ver PDF</a></article>`).join('')||'<div class="empty">Sin resultados.</div>';
+  $('#certs').innerHTML=list.slice(0,shown).map(c=>`<article class="card cert">${logoDe(c.institucion)?`<img class="logo" src="${esc(logoDe(c.institucion))}" alt="" loading="lazy">`:''}<div class="top"><div><div class="t">${esc(c.titulo)}</div><div class="i">${esc(c.institucion)}${c.horas?' · '+esc(c.horas)+' h':''}</div></div><span class="tag">${esc(c.tipo)}</span></div><div class="areas">${(c.areas||[]).map(a=>'<span class="pill">'+esc(a)+'</span>').join('')}</div><a class="ver" href="certificados/${encodeURIComponent(c.archivo)}" target="_blank" rel="noopener">Ver PDF</a></article>`).join('')||'<div class="empty">Sin resultados.</div>';
   $('#more').hidden=list.length<=shown;
 }
 $('#q').addEventListener('input',()=>{shown=PAGE;renderCerts();});
