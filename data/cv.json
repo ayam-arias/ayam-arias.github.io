@@ -29,8 +29,8 @@
   ],
   "experiencia": [
     {
-      "organizacion": "Servicio Aerofotogramétrico – Institución pública de Chile",
-      "logo": "",
+      "organizacion": "Servicio Aerofotogramétrico",
+      "logo": "assets/logos/saf.png",
       "tipo": "profesional",
       "cargos": [
         {
@@ -463,7 +463,7 @@
     "Santo Tomás": "assets/logos/santo-tomas.png",
     "Corvus Group": "assets/logos/corvus-group.png",
     "Inel": "assets/logos/inel.png",
-    "Esri": "https://commons.wikimedia.org/wiki/Special:FilePath/ArcGIS%20Logo%202026.svg?width=240",
+    "Esri": "assets/logos/esri.png",
     "BID": "https://commons.wikimedia.org/wiki/Special:FilePath/IDB%20logo.svg?width=240",
     "Coursera": "https://commons.wikimedia.org/wiki/Special:FilePath/Coursera%20logo%20%282020%29.svg?width=240",
     "LinkedIn": "https://commons.wikimedia.org/wiki/Special:FilePath/LinkedIn%20Learning%20logo.png?width=240",
@@ -477,7 +477,7 @@
     "UFRO": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Nuevo%20Ufro.png?width=240",
     "Udemy": "https://commons.wikimedia.org/wiki/Special:FilePath/Udemy%20logo.svg?width=240",
     "Leica": "https://commons.wikimedia.org/wiki/Special:FilePath/Leica%20Geosystems%20Logo.svg?width=240",
-    "UNU-INWEH": "https://commons.wikimedia.org/wiki/Special:FilePath/United%20Nations%20University%20logo.svg?width=240",
+    "UNU-INWEH": "assets/logos/unu-inweh.png",
     "Santander": "https://commons.wikimedia.org/wiki/Special:FilePath/Banco%20Santander%20Logotipo.svg?width=240",
     "Universidad de Santiago de Chile": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo-usach-oficial.png?width=240",
     "Dirección General de Aeronáutica Civil": "https://commons.wikimedia.org/wiki/Special:FilePath/Direcci%C3%B3n%20General%20de%20Aeron%C3%A1utica%20Civil%20de%20Chile.svg?width=240",
@@ -499,6 +499,32 @@
     "Cetye": "https://www.cetye.cl/assets/logo.png",
     "Quality & Improvement": "assets/logos/quality-improvement.png",
     "Escuela de Especialidades": "assets/logos/eesp-fach.png",
-    "Escuela de Perfeccionamiento": "assets/logos/eps-fach.png"
+    "Escuela de Perfeccionamiento": "assets/logos/eps-fach.png",
+    "ENAP Brasil": "assets/logos/enap-brasil.png",
+    "Wingtra": "assets/logos/wingtra.png",
+    "eClass": "assets/logos/eclass.png",
+    "Instituto Tecnológico de Puebla": "assets/logos/itpuebla.png",
+    "Servicio Aerofotogramétrico": "assets/logos/saf.png",
+    "BMP Renta": "assets/logos/bmp-renta.png",
+    "OBA": "assets/logos/oba.png",
+    "Imagine-IT": "assets/logos/imagine-it.png",
+    "Fundación Uno Punto Cinco": "https://www.google.com/s2/favicons?domain=unopuntocinco.org&sz=128",
+    "Aprende.org": "https://aprende.org/assets/images/logoApp.png",
+    "Geospace Solutions": "https://static.wixstatic.com/media/a59f35_3888cff4a99c4348933914724da3aae5~mv2.png",
+    "Intergeographic": "https://intergeographic.cl/wp-content/uploads/2023/09/logo1-1.png",
+    "CAEG": "https://academia.geomatica.online/wp-content/uploads/2021/12/logo-azul-nuevo-geomatica-online-oficial-1.png",
+    "INAGEP": "https://inagep.com/wp-content/uploads/2026/07/INAGEP-LOGO.png",
+    "Precision Field Academy": "https://www.google.com/s2/favicons?domain=precisionfieldacademy.com&sz=128",
+    "IDE Chile": "https://www.ide.cl/_astro/ide-isotipo.Rozbfa6q_VhD03.webp",
+    "SELPER": "https://selper.org.co/wp-content/uploads/2025/12/logo-selper-2x.png",
+    "Daxus": "https://www.google.com/s2/favicons?domain=daxus.com&sz=128",
+    "CentroGeo": "https://www.centrogeo.org.mx/img/logo_centrogeo_wide.svg",
+    "HDrones": "https://academiadedrones.cl/wp-content/uploads/2025/04/Academiadronchile_logo-scaled-150x150.jpg",
+    "Telemática Perú": "https://www.google.com/s2/favicons?domain=telematica.com.pe&sz=128",
+    "ATC": "https://www.google.com/s2/favicons?domain=autodesk.com&sz=128",
+    "IBIM": "https://ibim.cl/wp-content/uploads/2024/05/iBIM1-1024x512.png",
+    "MICROGEO": "https://microgeo.cl/wp-content/uploads/2022/04/logo-microgeo-color.svg",
+    "Centry": "https://www.google.com/s2/favicons?domain=centryclass.com&sz=128",
+    "Continuum": "https://www.google.com/s2/favicons?domain=continuumconsultoria.com&sz=128"
   }
 }
