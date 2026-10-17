@@ -102,12 +102,17 @@ def main():
     except Exception as e:
         print(f"Documentos: ERROR {e!r}; no se modificaron o quedaron a medias (hay respaldo en _respaldos).")
 
+    titulos = {slug(c["titulo"]) for c in certs}
     nuevos = []
     for h, rutas in fuentes.items():
         if h in publicados or h in ignorados:
             continue
         it = describir(rutas)
-        archivo = slug(f"{it['titulo']} {it['inst']}")[:110] + ".pdf"
+        # el mismo curso puede llegar como otro PDF (otros bytes): se evita duplicarlo por título
+        if slug(it["titulo"]) in titulos:
+            print(f"= {it['titulo']}: ya publicado con otro PDF; se omite (agrega su hash a ignorados.txt para silenciar).")
+            continue
+        archivo =slug(f"{it['titulo']} {it['inst']}")[:110] + ".pdf"
         while archivo in by_file or (CERTS_DIR / archivo).exists():
             archivo = archivo[:-4] + "-2.pdf"
         entry = {"titulo": it["titulo"], "institucion": it["inst"], "horas": it["horas"], "areas": it["areas"],
