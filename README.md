@@ -15,32 +15,27 @@ No usa frameworks ni servicios de pago: todo el contenido sale de dos archivos J
 | `data/cv.json` | Perfil, experiencia, formación, diplomados, reconocimientos y competencias. |
 | `data/certificados.json` | Listado de certificados que se muestran en la sección «Certificaciones». |
 | `certificados/` | Los PDF de títulos, diplomados y cursos. |
+| `scripts/` | Sincronización automática de certificados desde OneDrive. |
 | `assets/` | Foto, logos, códigos QR, imagen para compartir y CV en PDF. |
 
-## Agregar un certificado nuevo
+## Agregar un certificado nuevo (automático)
 
-1. En GitHub entra a la carpeta `certificados/` → **Add file → Upload files** y sube el PDF.
-   Nómbralo en minúsculas, sin tildes ni espacios (usa guiones). Ejemplo: `curso-qgis-avanzado-esri.pdf`.
-2. Abre `data/certificados.json` → ícono del lápiz (**Edit**) y agrega una entrada antes del último `]`
-   (recuerda la coma entre entradas):
+1. Guarda el PDF en la subcarpeta de área que corresponda dentro de
+   `OneDrive/Documentos/01_CAPACITACIONES`, con el nombre `SIGLA Nombre del curso.pdf`
+   (ej.: `ESRI Fundamentos de SIG.pdf`). Si el nombre termina en ` - 40 h.` se toman las horas.
+   Los diplomados van en `00 Títulos y Diplomados/DIPLOMADOS`.
+2. Listo. Todos los días a las 21:00 la tarea de Windows **«Publicar certificados CV»** ejecuta
+   `scripts/sync_certificados.bat`, que copia los PDF nuevos a `certificados/`, los agrega a
+   `data/certificados.json` (y a los diplomados de `data/cv.json`), hace commit y push.
+   Para publicar al instante, haz doble clic en `scripts/sync_certificados.bat`.
 
-```json
-{
- "titulo": "Curso QGIS Avanzado",
- "institucion": "Esri",
- "horas": 20,
- "areas": ["Geomática y SIG"],
- "archivo": "curso-qgis-avanzado-esri.pdf",
- "tipo": "curso"
-}
-```
-
-- `tipo` puede ser `titulo`, `diplomado`, `curso` o `documento`.
-- `horas` puede ser `null` si el certificado no lo indica.
-- `areas` usa los mismos nombres de área ya existentes para que el filtro los agrupe.
-- El contador de certificaciones se calcula solo.
-
-3. Pulsa **Commit changes**.
+- Los PDF se reconocen por contenido: renombrar o mover uno no lo duplica.
+- La sigla se traduce sola al nombre completo si ya hay certificados de esa institución
+  (ESRI → Esri, UCH → Universidad de Chile). Si es nueva, revisa el campo `institucion` en el JSON.
+- El área sale del nombre de la carpeta; si el mismo PDF está en dos carpetas, toma ambas áreas.
+- Para que un PDF **no** se publique nunca, agrega su hash a `scripts/ignorados.txt` (instrucciones dentro).
+- Probar sin publicar: `python scripts/sync_certificados.py --dry-run`. Registro: `scripts/sync.log`.
+- Los certificados agregados en los últimos 60 días aparecen primero con la etiqueta «Nuevo».
 
 ## Editar perfil, experiencia o formación
 

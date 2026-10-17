@@ -21,12 +21,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--geoia-navy:#1B2A4A;--geoia-amber:#E8772A;--geoia-cyan:#21A9D8;--geoia-bg:#EEF1F4;--geoia-bg-alt:#DCE3EA;--geoia-card:#FFFFFF;--geoia-muted:#5A6478;--geoia-shadow:0 4px 14px rgba(27,42,74,.10);--geoia-radius:12px;
+:root{--geoia-navy:#1B2A4A;--geoia-amber:#E8772A;--geoia-cyan:#21A9D8;--geoia-bg:#EEF1F4;--geoia-bg-alt:#DCE3EA;--geoia-card:#FFFFFF;--geoia-muted:#5A6478;--geoia-shadow:0 4px 14px rgba(27,42,74,.10);--geoia-radius:12px;--amber-ink:#B4530F;--amber-ink-hover:#9A4510;
 --navy:var(--geoia-navy);--navy2:#C9621C;--ink:var(--geoia-navy);--muted:var(--geoia-muted);--line:var(--geoia-bg-alt);--bg:var(--geoia-bg);--card:var(--geoia-card);--soft:#E1F3FA}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55;font-size:16px}
-a{color:var(--geoia-amber)}
+a{color:var(--amber-ink)}
+:focus-visible{outline:3px solid var(--geoia-cyan);outline-offset:2px;border-radius:6px}
+.btn,.chip,.ver,.more,.card,.qr,nav.tabs a{transition:background-color .2s,color .2s,border-color .2s,box-shadow .2s,transform .2s}
+.card:hover,.qr:hover{box-shadow:0 8px 22px rgba(27,42,74,.16)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 code{color:var(--geoia-cyan)}
 .wrap{max-width:960px;margin:0 auto;padding:0 16px}
 header.hero{background:var(--navy);border-bottom:4px solid var(--geoia-amber);color:#fff;padding:32px 0 28px}
@@ -38,16 +42,17 @@ h1{margin:0;font-size:1.6rem;line-height:1.2;letter-spacing:-.01em}
 .btns{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:6px}
 .btn{display:inline-flex;align-items:center;gap:6px;padding:10px 14px;border-radius:10px;font-weight:600;font-size:.9rem;text-decoration:none;border:1px solid rgba(255,255,255,.35);color:#fff;background:rgba(255,255,255,.08);min-height:44px}
 .btn:hover{background:rgba(255,255,255,.18)}
-.btn.primary{background:var(--geoia-amber);color:#fff;border-color:var(--geoia-amber)}
-.btn.primary:hover{background:#C9621C}
+.btn.primary{background:var(--amber-ink);color:#fff;border-color:var(--amber-ink)}
+.btn.primary:hover{background:var(--amber-ink-hover)}
 .btn svg{width:18px;height:18px;flex:none}
 .contact-list .btn svg,.contact-list .btn img{width:22px;height:22px}
 .contact-list .btn{gap:8px;text-transform:none}
 nav.tabs{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line)}
 nav.tabs .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
 nav.tabs a{flex:none;padding:12px 10px;font-size:.85rem;font-weight:600;color:var(--muted);text-decoration:none;border-bottom:2px solid transparent}
-nav.tabs a:hover{color:var(--navy)}
-section{padding:28px 0 8px}
+nav.tabs a:hover,nav.tabs a.on{color:var(--navy)}
+nav.tabs a.on{border-bottom-color:var(--geoia-amber)}
+section{padding:28px 0 8px;scroll-margin-top:44px}
 h2{font-size:1.2rem;margin:0 0 14px;color:var(--navy);display:flex;align-items:center;gap:10px}
 h2::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,var(--geoia-cyan),transparent)}
 h3{font-size:1rem;margin:0}
@@ -55,6 +60,7 @@ h3{font-size:1rem;margin:0}
 .stat{background:var(--card);border:1px solid var(--line);border-radius:var(--geoia-radius);padding:14px;text-align:center;box-shadow:var(--geoia-shadow);border-top:3px solid var(--geoia-amber)}
 .stat b{display:block;font-size:1.5rem;color:var(--navy);line-height:1.1}
 .stat span{font-size:.8rem;color:var(--muted)}
+.stat small{font-size:.75rem;font-weight:600;color:var(--navy)}
 .perfil p{margin:0 0 12px;text-align:justify;hyphens:auto}
 .tl{list-style:none;margin:0;padding:0;border-left:2px solid var(--soft);margin-left:6px}
 .tl>li{position:relative;padding:0 0 18px 18px}
@@ -84,19 +90,24 @@ img[src*="escuela-especialidades"]{filter:brightness(0);opacity:.85}
 .dip li:last-child{border-bottom:0}
 .dip small{display:block;color:var(--muted)}
 .search{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;font:inherit;background:#fff}
-.search:focus{outline:2px solid var(--navy2);border-color:transparent}
-.chips{display:flex;gap:6px;overflow-x:auto;padding:10px 0;scrollbar-width:thin}
+.search:focus{outline:3px solid var(--geoia-cyan);border-color:transparent}
+.chips{display:flex;flex-wrap:wrap;gap:6px;padding:10px 0}
 .chip{flex:none;border:1px solid var(--line);background:#fff;color:var(--ink);padding:7px 12px;border-radius:99px;font:inherit;font-size:.82rem;cursor:pointer;min-height:36px}
-.chip[aria-pressed=true]{background:var(--geoia-amber);color:#fff;border-color:var(--geoia-amber)}
+.chip:hover{border-color:var(--amber-ink)}
+.chip[aria-pressed=true]{background:var(--amber-ink);color:#fff;border-color:var(--amber-ink)}
 .count{font-size:.85rem;color:var(--muted);margin:2px 0 10px}
 .cert{flex-direction:column;gap:6px}
 .cert .top{display:flex;justify-content:space-between;gap:8px;width:100%}
 .cert .top .cli{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;color:var(--muted)}
 .tl .org .cli img{height:22px}
 .tag{align-self:flex-start;flex:none;height:auto}
+.cert .tag{text-transform:capitalize}
+.nuevo{display:inline-block;margin-left:6px;font-size:.68rem;font-weight:700;padding:1px 7px;border-radius:99px;background:var(--amber-ink);color:#fff;vertical-align:middle}
+.dip a{color:inherit;text-decoration:none}
+.dip a:hover{color:var(--amber-ink)}
 .cert .areas{display:flex;flex-wrap:wrap;gap:4px}
-.cert .ver{margin-top:4px;align-self:flex-start;padding:8px 12px;border-radius:8px;background:var(--geoia-amber);color:#fff;text-decoration:none;font-weight:600;font-size:.85rem}
-.cert .ver:hover{background:var(--navy2)}
+.cert .ver{margin-top:4px;align-self:flex-start;padding:10px 14px;min-height:44px;display:inline-flex;align-items:center;border-radius:8px;background:var(--amber-ink);color:#fff;text-decoration:none;font-weight:600;font-size:.85rem}
+.cert .ver:hover{background:var(--amber-ink-hover)}
 .more{display:block;margin:14px auto 0;padding:10px 18px;border-radius:10px;border:1px solid var(--navy);background:#fff;color:var(--navy);font:inherit;font-weight:600;cursor:pointer}
 .empty{padding:18px;text-align:center;color:var(--muted);background:#fff;border:1px dashed var(--line);border-radius:12px}
 .skills{display:grid;grid-template-columns:1fr;gap:10px}
@@ -160,7 +171,7 @@ footer{padding:28px 0 40px;color:var(--muted);font-size:.8rem;text-align:center}
   <section aria-label="Cifras destacadas" style="padding-top:28px">
     <div class="stats">
       <div class="stat"><b id="s-anios">–</b><span>años de experiencia</span></div>
-      <div class="stat"><b id="s-cert">–</b><span>certificaciones</span></div>
+      <div class="stat"><b id="s-cert">–</b><span>certificaciones<br><small id="s-horas"></small></span></div>
       <div class="stat"><b id="s-dip">–</b><span>diplomados</span></div>
       <div class="stat"><b id="s-rpas">–</b><span>licencia RPAS DGAC</span></div>
     </div>
@@ -204,13 +215,13 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
 const PAGE=24;
-let CERTS=[],area='Todas',shown=PAGE,LOGOS={};
+let CERTS=[],area=new URLSearchParams(location.search).get('area')||'Todas',shown=PAGE,LOGOS={};
 const logoDe=inst=>{inst=String(inst||'');const k=Object.keys(LOGOS).sort((a,b)=>b.length-a.length).find(k=>inst.includes(k));return k?LOGOS[k]:'';};
 
 Promise.all([
   fetch('data/cv.json',{cache:'no-cache'}).then(r=>r.json()),
   fetch('data/certificados.json',{cache:'no-cache'}).then(r=>r.ok?r.json():[]).catch(()=>[])
-]).then(([cv,certs])=>{renderCV(cv);CERTS=certs;renderStats(cv,certs);renderChips();renderCerts();})
+]).then(([cv,certs])=>{CERTS=certs.map((c,i)=>({...c,_i:i})).sort((a,b)=>(b.agregado||'').localeCompare(a.agregado||'')||a._i-b._i);renderCV(cv);renderStats(cv,certs);renderChips();renderCerts();if(location.hash)document.querySelector(location.hash)?.scrollIntoView({behavior:'instant'});})
  .catch(e=>{console.error(e);$('#perfil-txt').innerHTML='<p class="empty">No se pudo cargar el contenido.</p>';});
 
 function renderCV(cv){
@@ -224,7 +235,7 @@ function renderCV(cv){
   $('#f-titulos').innerHTML=cv.formacion.titulos.map(card).join('');
   $('#f-curso').innerHTML=cv.formacion.en_curso.map(card).join('');
   $('#f-lic').innerHTML=cv.formacion.licencias.map(card).join('');
-  $('#f-dip').innerHTML=cv.formacion.diplomados.map(d=>{const l=logoDe(d.institucion);return `<li>${l?`<img src="${esc(l)}" alt="" loading="lazy" onerror="this.remove()">`:''}<div>${esc(d.titulo)}<small>${esc(d.institucion)}${d.horas?' · '+d.horas+' h':''} · ${esc(d.anio)}</small></div></li>`}).join('');
+  $('#f-dip').innerHTML=cv.formacion.diplomados.map(d=>{const l=logoDe(d.institucion);const pdf=CERTS.find(c=>c.tipo==='diplomado'&&norm(c.titulo)===norm(d.titulo));return `<li>${l?`<img src="${esc(l)}" alt="" loading="lazy" onerror="this.remove()">`:''}<div>${pdf?`<a href="certificados/${encodeURIComponent(pdf.archivo)}" target="_blank" rel="noopener">${esc(d.titulo)} ↗</a>`:esc(d.titulo)}<small>${esc(d.institucion)}${d.horas?' · '+d.horas+' h':''} · ${esc(d.anio)}</small></div></li>`}).join('');
   $('#f-rec').innerHTML=cv.reconocimientos.map(r=>`<li>${r.logo?`<img src="${esc(r.logo)}" alt="" loading="lazy" onerror="this.remove()">`:''}<div>${esc(r.titulo)}<small>${esc(r.detalle)}</small></div></li>`).join('');
   $('#skills').innerHTML=cv.competencias.map(s=>`<div class="skill"><h3>${esc(s.area)}</h3><div class="pills">${s.items.map(i=>'<span class="pill">'+esc(i)+'</span>').join('')}</div></div>`).join('');
   const IC={
@@ -240,6 +251,7 @@ ig:'<svg viewBox="0 0 24 24"><defs><radialGradient id="igg" cx="30%" cy="107%" r
 function renderStats(cv,certs){
   $('#s-anios').textContent=cv.cifras.anios_experiencia;
   $('#s-cert').textContent=certs.filter(x=>x.tipo!=='documento').length||'–';
+  const h=certs.reduce((t,c)=>t+(c.horas||0),0);$('#s-horas').textContent=h?h.toLocaleString('es-CL')+' h acreditadas':'';
   $('#s-dip').textContent=cv.formacion.diplomados.length;
   $('#s-rpas').textContent=cv.cifras.licencia_rpas.replace('DGAC ','');
 }
@@ -247,7 +259,7 @@ function renderChips(){
   const counts={};CERTS.forEach(c=>(c.areas||[]).forEach(a=>counts[a]=(counts[a]||0)+1));
   const areas=['Todas',...Object.keys(counts).sort((a,b)=>a.localeCompare(b,'es'))];
   $('#chips').innerHTML=areas.map(a=>`<button class="chip" aria-pressed="${a===area}" data-a="${esc(a)}">${esc(a)}${a==='Todas'?'':' ('+counts[a]+')'}</button>`).join('');
-  $('#chips').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;area=b.dataset.a;shown=PAGE;renderChips();renderCerts();};
+  $('#chips').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;area=b.dataset.a;shown=PAGE;const u=new URL(location);area==='Todas'?u.searchParams.delete('area'):u.searchParams.set('area',area);history.replaceState(null,'',u);renderChips();renderCerts();};
 }
 function filtered(){
   const q=norm($('#q').value).split(/\s+/).filter(Boolean);
@@ -256,11 +268,17 @@ function filtered(){
 function renderCerts(){
   if(!CERTS.length){$('#certs').innerHTML='<div class="empty">Los certificados se están cargando en el sitio. Vuelve pronto.</div>';$('#count').textContent='';return;}
   const list=filtered();
-  $('#count').textContent=list.length+(list.length===1?' resultado':' resultados');
-  $('#certs').innerHTML=list.slice(0,shown).map(c=>`<article class="card cert">${logoDe(c.institucion)?`<img class="logo" src="${esc(logoDe(c.institucion))}" alt="" loading="lazy" onerror="this.remove()">`:''}<div class="top"><div><div class="t">${esc(c.titulo)}</div><div class="i">${esc(c.institucion)}${c.horas?' · '+esc(c.horas)+' h':''}</div></div><span class="tag">${esc(c.tipo)}</span></div><div class="areas">${(c.areas||[]).map(a=>'<span class="pill">'+esc(a)+'</span>').join('')}</div><a class="ver" href="certificados/${encodeURIComponent(c.archivo)}" target="_blank" rel="noopener">Ver PDF</a></article>`).join('')||'<div class="empty">Sin resultados.</div>';
+  const hs=list.reduce((t,c)=>t+(c.horas||0),0);$('#count').textContent=list.length+(list.length===1?' resultado':' resultados')+(hs?' · '+hs.toLocaleString('es-CL')+' h':'');
+  $('#certs').innerHTML=list.slice(0,shown).map(c=>`<article class="card cert">${logoDe(c.institucion)?`<img class="logo" src="${esc(logoDe(c.institucion))}" alt="" loading="lazy" onerror="this.remove()">`:''}<div class="top"><div><div class="t">${esc(c.titulo)}${esNuevo(c)?'<span class="nuevo">Nuevo</span>':''}</div><div class="i">${esc(c.institucion)}${c.horas?' · '+esc(c.horas)+' h':''}</div></div><span class="tag">${esc(c.tipo)}</span></div><div class="areas">${(c.areas||[]).map(a=>'<span class="pill">'+esc(a)+'</span>').join('')}</div><a class="ver" href="certificados/${encodeURIComponent(c.archivo)}" target="_blank" rel="noopener">Ver PDF</a></article>`).join('')||'<div class="empty">Sin resultados para esta búsqueda. <button class="more" id="reset" type="button">Ver todas las certificaciones</button></div>';
   $('#more').hidden=list.length<=shown;
 }
+function esNuevo(c){return c.agregado&&(Date.now()-new Date(c.agregado))<60*864e5;}
+// resalta la pestaña de la sección visible
+const tabs=[...document.querySelectorAll('nav.tabs a')];
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)tabs.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id));}),{rootMargin:'-45% 0px -50% 0px'});
+document.querySelectorAll('main section[id]').forEach(s=>io.observe(s));
 $('#q').addEventListener('input',()=>{shown=PAGE;renderCerts();});
+$('#certs').addEventListener('click',e=>{if(e.target.id!=='reset')return;$('#q').value='';area='Todas';history.replaceState(null,'',location.pathname+location.hash);shown=PAGE;renderChips();renderCerts();});
 $('#more').addEventListener('click',()=>{shown+=PAGE;renderCerts();});
 })();
 </script>
