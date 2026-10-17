@@ -181,6 +181,11 @@ h2{font-size:1.35rem;margin:0 0 6px;letter-spacing:-.01em}
 .contact{padding:22px;display:grid;gap:14px;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-deep) 100%);color:#fff;border:0;position:relative;overflow:hidden}
 .contact h2{color:#fff}
 .contact p{color:#cfdcf7;margin:0}
+.qrs{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px;max-width:440px}
+.qr{padding:12px;text-align:center;text-decoration:none;color:var(--ink)}
+.qr:hover{box-shadow:var(--shadow-hi);transform:translateY(-2px)}
+.qr img{width:100%;max-width:180px;height:auto;display:block;margin:0 auto 8px;border-radius:8px;background:#fff;padding:6px}
+.qr span{font-weight:600;font-size:.9rem}
 footer{padding:30px 0 40px;color:var(--muted);font-size:.8rem;text-align:center}
 
 /* reveal */
@@ -196,12 +201,12 @@ footer{padding:30px 0 40px;color:var(--muted);font-size:.8rem;text-align:center}
   .grid,.skills,.certs{grid-template-columns:1fr 1fr}
   .certs-layout{grid-template-columns:320px 1fr;align-items:start}
   .chart{position:sticky;top:64px}
-  .contact{grid-template-columns:1fr auto;align-items:center}
+
 }
 @media (min-width:1000px){.certs{grid-template-columns:1fr 1fr}}
 @media print{
   :root{--bg:#fff;--surface:#fff;--ink:#000;--muted:#333;--line:#ccc}
-  nav.tabs,.btns,.hint,.coord,svg.topo,#experiencia .maptools,#map,.legend,.listtabs,#certificaciones,.more,footer .noprint{display:none!important}
+  nav.tabs,.btns,.hint,.coord,svg.topo,#experiencia .maptools,#map,.legend,.listtabs,#certificaciones,.more,.qrs,footer .noprint{display:none!important}
   .hero{background:#fff!important;color:#000;border-bottom:2px solid #1B2A4A}.titular{color:#333}
   .reveal{opacity:1!important;transform:none!important}.card{box-shadow:none;break-inside:avoid}
   .exp{max-height:none;overflow:visible}.stats{grid-template-columns:repeat(5,1fr)}
@@ -309,6 +314,10 @@ footer{padding:30px 0 40px;color:var(--muted);font-size:.8rem;text-align:center}
     <div class="card contact">
       <div><h2>¿Conversamos?</h2><p>Proyectos geoespaciales, capacitación técnica y docencia.</p></div>
       <div class="btns" id="btns2" style="margin:0"></div>
+    </div>
+    <div class="qrs">
+      <a class="card qr" href="https://ayam-arias.github.io" target="_blank" rel="noopener"><img src="assets/qr-github.png" alt="Código QR al CV en línea" width="180" height="180" loading="lazy"><span>CV en línea</span></a>
+      <a class="card qr" href="https://www.linkedin.com/in/ian-arias" target="_blank" rel="noopener"><img src="assets/qr-linkedin.png" alt="Código QR a LinkedIn" width="180" height="180" loading="lazy"><span>LinkedIn</span></a>
     </div>
   </section>
 </main>
