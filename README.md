@@ -24,7 +24,7 @@ No usa frameworks ni servicios de pago: todo el contenido sale de dos archivos J
    `OneDrive/Documentos/01_CAPACITACIONES`, con el nombre `SIGLA Nombre del curso.pdf`
    (ej.: `ESRI Fundamentos de SIG.pdf`). Si el nombre termina en ` - 40 h.` se toman las horas.
    Los diplomados van en `00 Títulos y Diplomados/DIPLOMADOS`.
-2. Listo. Todos los días a las 21:00 la tarea de Windows **«Publicar certificados CV»** ejecuta
+2. Listo. El día 1 de cada mes a las 21:00 (o al encender el PC, si estaba apagado) la tarea de Windows **«Publicar certificados CV»** ejecuta
    `scripts/sync_certificados.bat`, que copia los PDF nuevos a `certificados/`, los agrega a
    `data/certificados.json` (y a los diplomados de `data/cv.json`), hace commit y push.
    Para publicar al instante, haz doble clic en `scripts/sync_certificados.bat`.
