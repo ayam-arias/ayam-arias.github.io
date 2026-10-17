@@ -1726,5 +1726,27 @@
   ],
   "archivo": "credencial-operador-rpas-n16114-vigencia-2027-dgac.pdf",
   "tipo": "documento"
+ },
+ {
+  "titulo": "Aplicación de Inteligencia Artificial en la docencia universitaria",
+  "institucion": "Universidad de Chile",
+  "horas": null,
+  "areas": [
+   "Educación y Docencia"
+  ],
+  "archivo": "aplicacion-de-inteligencia-artificial-en-la-docencia-universitaria-universidad-de-chile-2.pdf",
+  "tipo": "curso",
+  "agregado": "2026-10-17"
+ },
+ {
+  "titulo": "Herramientas de IA para la docencia y gestión del aula",
+  "institucion": "Universidad de Chile",
+  "horas": null,
+  "areas": [
+   "Educación y Docencia"
+  ],
+  "archivo": "herramientas-de-ia-para-la-docencia-y-gestion-del-aula-universidad-de-chile-2.pdf",
+  "tipo": "curso",
+  "agregado": "2026-10-17"
  }
 ]
