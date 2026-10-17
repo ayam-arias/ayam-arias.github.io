@@ -1,4 +1,5 @@
-"""Publica en el sitio los certificados nuevos de la carpeta de capacitaciones.
+"""Publica en el sitio los certificados nuevos de la carpeta de capacitaciones
+y los agrega a los documentos madre (ver documentos.py).
 
 Uso:  python scripts/sync_certificados.py [--dry-run] [--no-push]
 
@@ -7,6 +8,9 @@ Para que un PDF nunca se publique, agrega su hash a scripts/ignorados.txt.
 """
 import datetime, hashlib, json, os, re, shutil, subprocess, sys, unicodedata
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import documentos
 
 REPO = Path(__file__).resolve().parent.parent
 SRC = Path(os.environ.get("CAPACITACIONES", Path.home() / "OneDrive/Documentos/01_CAPACITACIONES"))
@@ -81,24 +85,36 @@ def main():
             first = rutas[0].stem.split()[0]
             learned.setdefault(first, [c["institucion"], []])[1].append(rutas[0].stem)
 
+    def describir(rutas):
+        rels = [r.relative_to(SRC) for r in rutas]
+        titulo, inst, horas = parse(rutas[0].stem, learned)
+        carpetas = list(dict.fromkeys(r.parts[0] for r in rels))
+        en_dip = any("DIPLOMADOS" in r.parts for r in rels) or titulo.startswith("Diplomado")
+        en_titulos = all(len(r.parts) == 2 and r.parts[0].startswith("00") for r in rels)
+        return {"titulo": titulo, "inst": inst, "horas": horas, "carpetas": carpetas,
+                "areas": [area(c) for c in carpetas], "ruta": str(rutas[0]),
+                "tipo": "diplomado" if en_dip else "titulo" if en_titulos else "curso",
+                # shortcut: la fecha es la del archivo, no la impresa en el certificado
+                "fecha": datetime.date.fromtimestamp(rutas[0].stat().st_mtime).strftime("%d-%m-%Y")}
+
+    try:  # los documentos son locales: un error aquí no debe frenar la publicación web
+        documentos.actualizar(fuentes, describir, dry)
+    except Exception as e:
+        print(f"Documentos: ERROR {e!r}; no se modificaron o quedaron a medias (hay respaldo en _respaldos).")
+
     nuevos = []
     for h, rutas in fuentes.items():
         if h in publicados or h in ignorados:
             continue
-        rels = [r.relative_to(SRC) for r in rutas]
-        titulo, inst, horas = parse(rutas[0].stem, learned)
-        areas = list(dict.fromkeys(area(r.parts[0]) for r in rels))
-        en_dip = any("DIPLOMADOS" in r.parts for r in rels) or titulo.startswith("Diplomado")
-        en_titulos = all(len(r.parts) == 2 and r.parts[0].startswith("00") for r in rels)
-        tipo = "diplomado" if en_dip else "titulo" if en_titulos else "curso"
-        archivo = slug(f"{titulo} {inst}")[:110] + ".pdf"
+        it = describir(rutas)
+        archivo = slug(f"{it['titulo']} {it['inst']}")[:110] + ".pdf"
         while archivo in by_file or (CERTS_DIR / archivo).exists():
             archivo = archivo[:-4] + "-2.pdf"
-        entry = {"titulo": titulo, "institucion": inst, "horas": horas, "areas": areas,
-                 "archivo": archivo, "tipo": tipo, "agregado": datetime.date.today().isoformat()}
+        entry = {"titulo": it["titulo"], "institucion": it["inst"], "horas": it["horas"], "areas": it["areas"],
+                 "archivo": archivo, "tipo": it["tipo"], "agregado": datetime.date.today().isoformat()}
         nuevos.append((rutas[0], entry))
         by_file[archivo] = entry
-        print(f"+ {entry['titulo']} | {inst or '(sin institución)'} | {horas or '-'} h | {tipo} | {', '.join(areas)}")
+        print(f"+ {entry['titulo']} | {it['inst'] or '(sin institución)'} | {it['horas'] or '-'} h | {it['tipo']} | {', '.join(it['areas'])}")
 
     if not nuevos:
         print("Sin certificados nuevos.")

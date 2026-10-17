@@ -37,6 +37,22 @@ No usa frameworks ni servicios de pago: todo el contenido sale de dos archivos J
 - Probar sin publicar: `python scripts/sync_certificados.py --dry-run`. Registro: `scripts/sync.log`.
 - Los certificados agregados en los últimos 60 días aparecen primero con la etiqueta «Nuevo».
 
+## Documentos madre (se actualizan solos en el mismo proceso)
+
+En `OneDrive/Documentos/02_INFORMACION PERSONAL`, cada certificado nuevo también se agrega a:
+
+| Documento | Qué se agrega |
+|---|---|
+| `CV_MAESTRO_Ian_Arias_Carrasco_2026.docx` (CV base) | Una viñeta «Curso (N h), Institución (año).» al inicio de su área (y en Diplomados si corresponde). Suma el total «N capacitaciones certificadas». |
+| `Curriculum_Maestro_Capacitaciones_Ian_Arias.docx` | Una fila en la tabla de su categoría; actualiza el resumen, el total y la fecha. |
+| `Curriculum_Maestro_Capacitaciones_Ian_Arias.xlsx` | Una fila con categoría, institución, curso, horas, fecha y ruta del PDF (tabla con filtros). |
+
+- Incluye **todos** los PDF nuevos, también los que no se publican en la web (`ignorados.txt` solo afecta al sitio).
+- Antes de modificarlos se guarda una copia en `02_INFORMACION PERSONAL/_respaldos/`.
+- Si algún documento está abierto en Word/Excel, se salta y se reintenta en la próxima ejecución.
+- La fecha registrada es la del archivo PDF (no la impresa en el certificado): revísala si importa.
+- Los PDF ya procesados quedan en `scripts/documentos_vistos.txt`.
+
 ## Editar perfil, experiencia o formación
 
 Edita `data/cv.json` con el lápiz de GitHub. Cada sección es una lista; copia un bloque existente, cámbiale el texto y guarda con **Commit changes**.
